@@ -43,7 +43,7 @@ cd ~/Projects/vacancy-oracle && python3 -m http.server 8000
 ## Roadmap
 
 - [x] Phase 0 — candidates + label studio
-- [ ] Phase 1 — baseline report (rules vs labels)
+- [x] Phase 1 — baseline harness ready (`scripts/phase1_baseline.py`); report generates from your `data/labels.csv`
 - [ ] Phase 2 — image embeddings (API/Colab) + probe, active-learning queue
 - [ ] Phase 3 — fused model + geographic holdout + calibration
 - [ ] Phase 4 — ParkScan demo upgrade (Rules v1 vs Oracle v2 toggle) + write-up
