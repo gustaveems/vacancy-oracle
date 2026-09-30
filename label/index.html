@@ -50,13 +50,14 @@
 
 <script>
 const KEY_LS = "vo_gsv_key", LABELS_LS = "vo_labels";
+let CONFIG_KEY = "";  // served locally from data/config.json (never committed)
 let rows = [], labels = JSON.parse(localStorage.getItem(LABELS_LS) || "{}");
 let sel = 0;
 
 const $ = (s) => document.querySelector(s);
 const saveLabels = () => localStorage.setItem(LABELS_LS, JSON.stringify(labels));
 
-function key() { return localStorage.getItem(KEY_LS) || ""; }
+function key() { return localStorage.getItem(KEY_LS) || CONFIG_KEY; }
 $("#gsvKey").value = key();
 $("#saveKey").onclick = () => { localStorage.setItem(KEY_LS, $("#gsvKey").value.trim()); render(); };
 
@@ -67,6 +68,10 @@ const HEADS = [0, 90, 180, 270];
 const N = { "1": "vacant", "2": "occupied", "3": "unclear" };
 
 async function load() {
+  try {
+    const cfg = await (await fetch("../data/config.json")).json();
+    CONFIG_KEY = cfg.gsv_key || "";
+  } catch (e) { /* no local config — fall back to pasted key */ }
   const res = await fetch("../data/candidates.csv");
   const text = await res.text();
   const lines = text.trim().split("\n").slice(1);
