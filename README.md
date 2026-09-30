@@ -43,7 +43,7 @@ cd ~/Projects/vacancy-oracle && python3 -m http.server 8000
 ## Roadmap
 
 - [x] Phase 0 — candidates + label studio
-- [x] Phase 1 — baseline harness ready (`scripts/phase1_baseline.py`); report generates from your `data/labels.csv`
+- [x] Phase 1 — first real baseline (docs/baseline-report.md): 701 labels, **vacancy prevalence 2.4%** in downtown commercial cores, street-prior PR-AUC 0.020 — weaker than majority. Finding: signal density, not label volume, is the bottleneck → pool expanded with 349 industrial-belt candidates (haven/kade/terrain seeds).
 - [ ] Phase 2 — image embeddings (API/Colab) + probe, active-learning queue
 - [ ] Phase 3 — fused model + geographic holdout + calibration
 - [ ] Phase 4 — ParkScan demo upgrade (Rules v1 vs Oracle v2 toggle) + write-up

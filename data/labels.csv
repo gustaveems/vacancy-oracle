@@ -1,0 +1,702 @@
+city,pdok_vbo,address,lat,lng,label
+Amsterdam,0363010012171889,"Batteryparkstraat 1, 1031KH Amsterdam",52.387697,4.903158,2
+Amsterdam,0363010012171894,"Batteryparkstraat 11, 1031KH Amsterdam",52.387722,4.903303,2
+Amsterdam,0363010012171888,"Batteryparkstraat 115, 1031KH Amsterdam",52.387710,4.903340,2
+Amsterdam,0363010012171895,"Batteryparkstraat 13, 1031KH Amsterdam",52.387727,4.903332,2
+Amsterdam,0363010012171899,"Batteryparkstraat 21, 1031KH Amsterdam",52.387729,4.903235,2
+Amsterdam,0363010012171900,"Batteryparkstraat 23, 1031KH Amsterdam",52.387735,4.903262,2
+Amsterdam,0363010012171890,"Batteryparkstraat 3, 1031KH Amsterdam",52.387702,4.903186,2
+Amsterdam,0363010012171891,"Batteryparkstraat 5, 1031KH Amsterdam",52.387707,4.903215,2
+Amsterdam,0363010012171892,"Batteryparkstraat 7, 1031KH Amsterdam",52.387711,4.903240,2
+Amsterdam,0363010012171893,"Batteryparkstraat 9, 1031KH Amsterdam",52.387717,4.903271,2
+Amsterdam,0363010000582062,"Bertelmanstraat 2-1, 1075LW Amsterdam",52.350049,4.860057,2
+Amsterdam,0363010000582063,"Bertelmanstraat 2-2, 1075LW Amsterdam",52.350049,4.860057,2
+Amsterdam,0363010000582064,"Bertelmanstraat 2-3, 1075LW Amsterdam",52.350049,4.860057,2
+Amsterdam,0363010000582061,"Bertelmanstraat 2-H, 1075LW Amsterdam",52.350049,4.860057,2
+Amsterdam,0363010000582068,"Bertelmanstraat 4-1, 1075LW Amsterdam",52.350004,4.859985,2
+Amsterdam,0363010000582069,"Bertelmanstraat 4-2, 1075LW Amsterdam",52.350004,4.859985,2
+Amsterdam,0363010000582070,"Bertelmanstraat 4-3, 1075LW Amsterdam",52.350004,4.859985,2
+Amsterdam,0363010000582067,"Bertelmanstraat 4-H, 1075LW Amsterdam",52.350004,4.859985,2
+Amsterdam,0363010000582074,"Bertelmanstraat 6-1, 1075LW Amsterdam",52.349950,4.859927,2
+Amsterdam,0363010000582075,"Bertelmanstraat 6-2, 1075LW Amsterdam",52.349950,4.859927,2
+Amsterdam,0363010000582076,"Bertelmanstraat 6-3, 1075LW Amsterdam",52.349950,4.859927,2
+Amsterdam,0363010000582073,"Bertelmanstraat 6-H, 1075LW Amsterdam",52.349950,4.859927,2
+Amsterdam,0363010000582079,"Bertelmanstraat 8-1, 1075LW Amsterdam",52.349895,4.859869,2
+Amsterdam,0363010000582080,"Bertelmanstraat 8-2, 1075LW Amsterdam",52.349895,4.859869,2
+Amsterdam,0363010000582081,"Bertelmanstraat 8-3, 1075LW Amsterdam",52.349895,4.859869,2
+Amsterdam,0363010000582078,"Bertelmanstraat 8-H, 1075LW Amsterdam",52.349895,4.859869,2
+Amsterdam,0363010000621282,"Des Présstraat 18-1, 1075NZ Amsterdam",52.350130,4.860012,2
+Amsterdam,0363010000621283,"Des Présstraat 18-2, 1075NZ Amsterdam",52.350130,4.860012,2
+Amsterdam,0363010000621284,"Des Présstraat 18-3, 1075NZ Amsterdam",52.350130,4.860012,2
+Amsterdam,0363010000621281,"Des Présstraat 18-H, 1075NZ Amsterdam",52.350130,4.860012,2
+Amsterdam,0363010000624493,"Distelkade 4, 1031XP Amsterdam",52.391911,4.910317,2
+Amsterdam,0363010000624494,"Distelkade 5, 1031XP Amsterdam",52.391956,4.910243,2
+Amsterdam,0363010000624495,"Distelkade 6, 1031XP Amsterdam",52.391974,4.910184,2
+Amsterdam,0363010000624496,"Distelkade 7, 1031XP Amsterdam",52.391991,4.910110,2
+Amsterdam,0363010000624497,"Distelkade 8, 1031XP Amsterdam",52.392018,4.910051,2
+Amsterdam,0363010001012409,"Distelkruisstraat 12, 1031XJ Amsterdam",52.392035,4.909874,2
+Amsterdam,0363010000624519,"Distelkruisstraat 14, 1031XJ Amsterdam",52.392080,4.909918,2
+Amsterdam,0363010000624511,"Distelkruisstraat 5, 1031XJ Amsterdam",52.391971,4.909581,2
+Amsterdam,0363010000624513,"Distelkruisstraat 7, 1031XJ Amsterdam",52.392061,4.909654,2
+Amsterdam,0363010000624514,"Distelkruisstraat 8, 1031XJ Amsterdam",52.391918,4.909758,2
+Amsterdam,0363010001012406,"Distelkruisstraat 9, 1031XJ Amsterdam",52.392106,4.909697,2
+Amsterdam,0363010000547057,"Eerste Keucheniusstraat 1-1, 1051HN Amsterdam",52.380989,4.873275,2
+Amsterdam,0363010000547090,"Eerste Keucheniusstraat 11-1, 1051HN Amsterdam",52.381069,4.872966,2
+Amsterdam,0363010000547091,"Eerste Keucheniusstraat 11-2, 1051HN Amsterdam",52.381069,4.872966,2
+Amsterdam,0363010000547092,"Eerste Keucheniusstraat 11-3, 1051HN Amsterdam",52.381069,4.872966,2
+Amsterdam,0363010000547089,"Eerste Keucheniusstraat 11-H, 1051HN Amsterdam",52.381069,4.872966,2
+Amsterdam,0363010000547097,"Eerste Keucheniusstraat 13-1, 1051HN Amsterdam",52.381086,4.872892,2
+Amsterdam,0363010000547100,"Eerste Keucheniusstraat 13-2, 1051HN Amsterdam",52.381086,4.872892,2
+Amsterdam,0363010000547101,"Eerste Keucheniusstraat 13-3, 1051HN Amsterdam",52.381086,4.872892,2
+Amsterdam,0363010000547096,"Eerste Keucheniusstraat 13-H, 1051HN Amsterdam",52.381086,4.872892,2
+Amsterdam,0363010000547107,"Eerste Keucheniusstraat 15-1, 1051HN Amsterdam",52.381086,4.872819,2
+Amsterdam,0363010000547108,"Eerste Keucheniusstraat 15-2, 1051HN Amsterdam",52.381086,4.872819,2
+Amsterdam,0363010000547109,"Eerste Keucheniusstraat 15-3, 1051HN Amsterdam",52.381086,4.872819,2
+Amsterdam,0363010000547106,"Eerste Keucheniusstraat 15-H, 1051HN Amsterdam",52.381086,4.872819,2
+Amsterdam,0363010000547074,"Eerste Keucheniusstraat 7-1, 1051HN Amsterdam",52.381024,4.873128,2
+Amsterdam,0363010000547075,"Eerste Keucheniusstraat 7-2, 1051HN Amsterdam",52.381024,4.873128,2
+Amsterdam,0363010000547076,"Eerste Keucheniusstraat 7-3, 1051HN Amsterdam",52.381024,4.873128,2
+Amsterdam,0363010000547082,"Eerste Keucheniusstraat 9-1, 1051HN Amsterdam",52.381051,4.873054,2
+Amsterdam,0363010000547083,"Eerste Keucheniusstraat 9-2, 1051HN Amsterdam",52.381051,4.873054,2
+Amsterdam,0363010000547084,"Eerste Keucheniusstraat 9-3, 1051HN Amsterdam",52.381051,4.873054,2
+Amsterdam,0363010000547081,"Eerste Keucheniusstraat 9-H, 1051HN Amsterdam",52.381051,4.873054,2
+Amsterdam,0363010000659190,"Hartenstraat 2, 1016CB Amsterdam",52.372355,4.886621,2
+Amsterdam,0363010001026519,"Hartenstraat 2A, 1016CB Amsterdam",52.372346,4.886547,2
+Amsterdam,0363010001026521,"Hartenstraat 4, 1016CB Amsterdam",52.372346,4.886503,2
+Amsterdam,0363010000659196,"Hartenstraat 6-1, 1016CB Amsterdam",52.372363,4.886430,2
+Amsterdam,0363010000659197,"Hartenstraat 6-2, 1016CB Amsterdam",52.372363,4.886430,2
+Amsterdam,0363010000659198,"Hartenstraat 6-3, 1016CB Amsterdam",52.372363,4.886430,2
+Amsterdam,0363010000659195,"Hartenstraat 6-H, 1016CB Amsterdam",52.372363,4.886430,2
+Amsterdam,0363010012080367,"Hartenstraat 8A, 1016CB Amsterdam",52.372355,4.886360,2
+Amsterdam,0363010012080368,"Hartenstraat 8B, 1016CB Amsterdam",52.372356,4.886353,2
+Amsterdam,0363010000658170,"Herengracht 202A, 1016BS Amsterdam",52.373003,4.886775,1
+Amsterdam,0363010000664706,"Herengracht 204, 1016BS Amsterdam",52.372967,4.886775,2
+Amsterdam,0363010012151191,"Herengracht 208, 1016BS Amsterdam",52.372762,4.886720,2
+Amsterdam,0363010001041621,"Herengracht 216, 1016BS Amsterdam",52.372724,4.886719,2
+Amsterdam,0363010000664715,"Herengracht 218, 1016BT Amsterdam",52.372634,4.886750,2
+Amsterdam,0363010000977619,"Herengracht 220, 1016BT Amsterdam",52.372580,4.886736,2
+Amsterdam,0363010000983356,"Herengracht 222, 1016BT Amsterdam",52.372535,4.886736,2
+Amsterdam,0363010000713923,"Herengracht 224, 1016BT Amsterdam",52.372499,4.886722,2
+Amsterdam,0363010000664719,"Herengracht 226, 1016BT Amsterdam",52.372463,4.886722,2
+Amsterdam,0363010000664724,"Herengracht 228, 1016BT Amsterdam",52.372418,4.886723,2
+Amsterdam,0363010012132875,"Herengracht 230, 1016BT Amsterdam",52.372378,4.886739,2
+Amsterdam,0363010000690008,"Jekerstraat 66-1, 1078ME Amsterdam",52.346174,4.897306,3
+Amsterdam,0363010000690009,"Jekerstraat 66-2, 1078ME Amsterdam",52.346174,4.897306,3
+Amsterdam,0363010000690010,"Jekerstraat 66-3, 1078ME Amsterdam",52.346174,4.897306,3
+Amsterdam,0363010000690007,"Jekerstraat 66-H, 1078ME Amsterdam",52.346174,4.897306,3
+Amsterdam,0363010012110115,"Jekerstraat 68, 1078ME Amsterdam",52.346173,4.897248,3
+Amsterdam,0363010000690021,"Jekerstraat 70-2, 1078ME Amsterdam",52.346182,4.897189,3
+Amsterdam,0363010000690022,"Jekerstraat 70-3, 1078ME Amsterdam",52.346182,4.897189,3
+Amsterdam,0363010000690027,"Jekerstraat 72-1, 1078ME Amsterdam",52.346182,4.897115,3
+Amsterdam,0363010000690028,"Jekerstraat 72-2, 1078ME Amsterdam",52.346182,4.897115,3
+Amsterdam,0363010000690029,"Jekerstraat 72-3, 1078ME Amsterdam",52.346182,4.897115,3
+Amsterdam,0363010000690034,"Jekerstraat 74, 1078MG Amsterdam",52.346190,4.897042,2
+Amsterdam,0363010000690039,"Jekerstraat 76, 1078MG Amsterdam",52.346190,4.896983,2
+Amsterdam,0363010000690044,"Jekerstraat 78-1, 1078MG Amsterdam",52.346199,4.896910,2
+Amsterdam,0363010000690045,"Jekerstraat 78-2, 1078MG Amsterdam",52.346199,4.896910,2
+Amsterdam,0363010000690046,"Jekerstraat 78-3, 1078MG Amsterdam",52.346199,4.896910,2
+Amsterdam,0363010000690050,"Jekerstraat 80-1, 1078MG Amsterdam",52.346199,4.896851,2
+Amsterdam,0363010000690051,"Jekerstraat 80-2, 1078MG Amsterdam",52.346199,4.896851,2
+Amsterdam,0363010000690052,"Jekerstraat 80-3, 1078MG Amsterdam",52.346199,4.896851,2
+Amsterdam,0363010000690056,"Jekerstraat 82, 1078MG Amsterdam",52.346207,4.896763,2
+Amsterdam,0363010012078382,"Jekerstraat 86, 1078MG Amsterdam",52.346198,4.896719,2
+Amsterdam,0363010000722812,"Lange Distelstraat 10, 1031XG Amsterdam",52.391865,4.909964,2
+Amsterdam,0363010000722813,"Lange Distelstraat 11, 1031XE Amsterdam",52.391721,4.909878,2
+Amsterdam,0363010000722814,"Lange Distelstraat 12, 1031XG Amsterdam",52.391900,4.909832,2
+Amsterdam,0363010000722815,"Lange Distelstraat 13, 1031XE Amsterdam",52.391747,4.909804,2
+Amsterdam,0363010000722816,"Lange Distelstraat 14, 1031XG Amsterdam",52.391989,4.909537,2
+Amsterdam,0363010000722804,"Lange Distelstraat 2, 1031XG Amsterdam",52.391803,4.910230,2
+Amsterdam,0363010000722806,"Lange Distelstraat 4, 1031XG Amsterdam",52.391821,4.910171,2
+Amsterdam,0363010000722808,"Lange Distelstraat 6, 1031XG Amsterdam",52.391838,4.910097,2
+Amsterdam,0363010000722810,"Lange Distelstraat 8, 1031XG Amsterdam",52.391856,4.910023,2
+Amsterdam,0363010011005081,"Oostelijke Handelskade 625, 1019BW Amsterdam",52.375460,4.929893,2
+Amsterdam,0363010011005082,"Oostelijke Handelskade 627, 1019BW Amsterdam",52.375460,4.929907,2
+Amsterdam,0363010011005083,"Oostelijke Handelskade 629, 1019BW Amsterdam",52.375460,4.929907,2
+Amsterdam,0363010011005084,"Oostelijke Handelskade 631, 1019BW Amsterdam",52.375460,4.929922,2
+Amsterdam,0363010011005085,"Oostelijke Handelskade 633, 1019BW Amsterdam",52.375460,4.929937,2
+Amsterdam,0363010011005086,"Oostelijke Handelskade 635, 1019BW Amsterdam",52.375451,4.929937,2
+Amsterdam,0363010011005087,"Oostelijke Handelskade 637, 1019BW Amsterdam",52.375451,4.929952,2
+Amsterdam,0363010011005088,"Oostelijke Handelskade 639, 1019BW Amsterdam",52.375451,4.929952,2
+Amsterdam,0363010011005089,"Oostelijke Handelskade 641, 1019BW Amsterdam",52.375451,4.929966,2
+Amsterdam,0363010011005090,"Oostelijke Handelskade 643, 1019BW Amsterdam",52.375451,4.929981,2
+Amsterdam,0363010011005091,"Oostelijke Handelskade 645, 1019BW Amsterdam",52.375451,4.929981,2
+Amsterdam,0363010011005092,"Oostelijke Handelskade 647, 1019BW Amsterdam",52.375442,4.929996,2
+Amsterdam,0363010011005093,"Oostelijke Handelskade 649, 1019BW Amsterdam",52.375442,4.929996,2
+Amsterdam,0363010011005094,"Oostelijke Handelskade 651, 1019BW Amsterdam",52.375443,4.930010,2
+Amsterdam,0363010011005095,"Oostelijke Handelskade 653, 1019BW Amsterdam",52.375443,4.930025,2
+Amsterdam,0363010011005096,"Oostelijke Handelskade 655, 1019BW Amsterdam",52.375443,4.930025,2
+Amsterdam,0363010011005097,"Oostelijke Handelskade 657, 1019BW Amsterdam",52.375434,4.930040,2
+Amsterdam,0363010011005098,"Oostelijke Handelskade 659, 1019BW Amsterdam",52.375434,4.930055,2
+Amsterdam,0363010011005099,"Oostelijke Handelskade 661, 1019BW Amsterdam",52.375434,4.930055,2
+Amsterdam,0363010011005101,"Oostelijke Handelskade 665, 1019BW Amsterdam",52.375434,4.930069,2
+Amsterdam,0363010000949514,"Oudezijds Achterburgwal 190A, 1012DX Amsterdam",52.370235,4.895455,2
+Amsterdam,0363010000949515,"Oudezijds Achterburgwal 190B, 1012DX Amsterdam",52.370235,4.895455,2
+Amsterdam,0363010000759239,"Oudezijds Achterburgwal 192-1, 1012DX Amsterdam",52.370190,4.895426,2
+Amsterdam,0363010000759238,"Oudezijds Achterburgwal 192-H, 1012DX Amsterdam",52.370190,4.895426,2
+Amsterdam,0363010000759242,"Oudezijds Achterburgwal 194-1, 1012DX Amsterdam",52.370127,4.895353,2
+Amsterdam,0363010012164013,"Oudezijds Achterburgwal 194-2, 1012DX Amsterdam",52.370126,4.895371,2
+Amsterdam,0363010012164014,"Oudezijds Achterburgwal 194-3, 1012DX Amsterdam",52.370127,4.895363,2
+Amsterdam,0363010001956927,"Oudezijds Achterburgwal 194-H, 1012DX Amsterdam",52.370127,4.895353,2
+Amsterdam,0363010000759249,"Oudezijds Achterburgwal 196-1, 1012DX Amsterdam",52.370082,4.895339,2
+Amsterdam,0363010000759250,"Oudezijds Achterburgwal 196-2, 1012DX Amsterdam",52.370082,4.895339,2
+Amsterdam,0363010000759248,"Oudezijds Achterburgwal 196-H, 1012DX Amsterdam",52.370082,4.895339,2
+Amsterdam,0363010001014270,"Oudezijds Voorburgwal 221-1, 1012EX Amsterdam",52.370233,4.894912,2
+Amsterdam,0363010000961615,"Oudezijds Voorburgwal 221-2, 1012EX Amsterdam",52.370233,4.894912,2
+Amsterdam,0363010000759686,"Oudezijds Voorburgwal 221-3, 1012EX Amsterdam",52.370233,4.894912,2
+Amsterdam,0363010001014272,"Oudezijds Voorburgwal 221-4, 1012EX Amsterdam",52.370233,4.894912,2
+Amsterdam,0363010001014273,"Oudezijds Voorburgwal 221-HA, 1012EX Amsterdam",52.370233,4.894912,2
+Amsterdam,0363010001014274,"Oudezijds Voorburgwal 221-HV, 1012EX Amsterdam",52.370233,4.894912,2
+Amsterdam,0363010000777684,"Plantage Middenlaan 88-O, 1018DJ Amsterdam",52.364134,4.917897,2
+Amsterdam,0363010000777895,"Plantage Muidergracht 163-2, 1018TT Amsterdam",52.364107,4.917883,3
+Amsterdam,0363010000777896,"Plantage Muidergracht 163-3, 1018TT Amsterdam",52.364107,4.917883,2
+Amsterdam,0363020001033158,"Plantage Muidergracht 206, 1018TW Amsterdam",52.363766,4.917767,3
+Amsterdam,0363010000783027,"Prins Hendrikkade 77A, 1012AE Amsterdam",52.376667,4.901170,2
+Amsterdam,0363010000783028,"Prins Hendrikkade 77B, 1012AE Amsterdam",52.376676,4.901184,2
+Amsterdam,0363010000783029,"Prins Hendrikkade 77C, Amsterdam",52.376658,4.901184,2
+Amsterdam,0363010000783034,"Prins Hendrikkade 78A, 1012AE Amsterdam",52.376676,4.901258,2
+Amsterdam,0363010000783035,"Prins Hendrikkade 78B, 1012AE Amsterdam",52.376676,4.901258,2
+Amsterdam,0363010000783036,"Prins Hendrikkade 78C, 1012AE Amsterdam",52.376676,4.901258,2
+Amsterdam,0363010000783037,"Prins Hendrikkade 78D, 1012AE Amsterdam",52.376676,4.901258,2
+Amsterdam,0363010000783038,"Prins Hendrikkade 78E, 1012AE Amsterdam",52.376676,4.901228,2
+Amsterdam,0363010000783039,"Prins Hendrikkade 78F, 1012AE Amsterdam",52.376676,4.901243,2
+Amsterdam,0363010000783040,"Prins Hendrikkade 78G, 1012AE Amsterdam",52.376685,4.901258,2
+Amsterdam,0363010000783041,"Prins Hendrikkade 78H, 1012AE Amsterdam",52.376667,4.901228,2
+Amsterdam,0363010000783042,"Prins Hendrikkade 78K, 1012AE Amsterdam",52.376667,4.901243,2
+Amsterdam,0363010000783043,"Prins Hendrikkade 79A, 1012AE Amsterdam",52.376685,4.901287,2
+Amsterdam,0363010000783044,"Prins Hendrikkade 79B, 1012AE Amsterdam",52.376694,4.901302,2
+Amsterdam,0363010000783045,"Prins Hendrikkade 79C, 1012AE Amsterdam",52.376694,4.901316,2
+Amsterdam,0363010000783046,"Prins Hendrikkade 79D, 1012AE Amsterdam",52.376694,4.901331,2
+Amsterdam,0363010000783047,"Prins Hendrikkade 79E, 1012AE Amsterdam",52.376676,4.901287,2
+Amsterdam,0363010000783048,"Prins Hendrikkade 79F, 1012AE Amsterdam",52.376676,4.901302,2
+Amsterdam,0363010000783056,"Prins Hendrikkade 80A, 1012AE Amsterdam",52.376704,4.901360,2
+Amsterdam,0363010000783070,"Prins Hendrikkade 81F, 1012AE Amsterdam",52.376685,4.901331,2
+Amsterdam,0363010001009817,"Quellijnstraat 104-2, 1072XZ Amsterdam",52.356605,4.892083,1
+Amsterdam,0363010000787112,"Quellijnstraat 106-1A, 1072XZ Amsterdam",52.356596,4.892186,3
+Amsterdam,0363010000787113,"Quellijnstraat 106-1V, 1072XZ Amsterdam",52.356596,4.892186,1
+Amsterdam,0363010000787114,"Quellijnstraat 106-2A, 1072XZ Amsterdam",52.356596,4.892186,3
+Amsterdam,0363010000787115,"Quellijnstraat 106-2V, 1072XZ Amsterdam",52.356596,4.892186,1
+Amsterdam,0363010000787116,"Quellijnstraat 106-3A, 1072XZ Amsterdam",52.356596,4.892186,3
+Amsterdam,0363010000787117,"Quellijnstraat 106-3V, 1072XZ Amsterdam",52.356596,4.892186,1
+Amsterdam,0363010000787111,"Quellijnstraat 106-H, 1072XZ Amsterdam",52.356596,4.892186,3
+Amsterdam,0363010000787126,"Quellijnstraat 108-1, 1072XZ Amsterdam",52.356596,4.892259,2
+Amsterdam,0363010000787127,"Quellijnstraat 108-2, 1072XZ Amsterdam",52.356596,4.892259,2
+Amsterdam,0363010000787128,"Quellijnstraat 108-3, 1072XZ Amsterdam",52.356596,4.892259,2
+Amsterdam,0363010000787125,"Quellijnstraat 108-H, 1072XZ Amsterdam",52.356596,4.892259,2
+Amsterdam,0363010000784309,"Quellijnstraat 71, 1072ZA Amsterdam",52.356810,4.891890,2
+Amsterdam,0363010000784310,"Quellijnstraat 77, 1072ZA Amsterdam",52.356802,4.891993,3
+Amsterdam,0363010000784311,"Quellijnstraat 79, 1072ZA Amsterdam",52.356802,4.892066,2
+Amsterdam,0363010000784312,"Quellijnstraat 81, 1072ZA Amsterdam",52.356794,4.892169,3
+Amsterdam,0363010000784313,"Quellijnstraat 83, 1072ZA Amsterdam",52.356785,4.892228,2
+Amsterdam,0363010000784314,"Quellijnstraat 85, 1072ZA Amsterdam",52.356776,4.892316,2
+Amsterdam,0363010000784315,"Quellijnstraat 87, Amsterdam",52.356777,4.892404,2
+Amsterdam,0363010000784316,"Quellijnstraat 89, 1072ZA Amsterdam",52.356768,4.892477,3
+Amsterdam,0363010011290833,"Sarphatistraat 478, 1018GW Amsterdam",52.363292,4.918831,2
+Amsterdam,0363010011290834,"Sarphatistraat 478A, 1018GW Amsterdam",52.363301,4.918831,3
+Amsterdam,0363010000804704,"Sarphatistraat 480, 1018GW Amsterdam",52.363292,4.918831,2
+Amsterdam,0363010000804705,"Sarphatistraat 482, 1018GW Amsterdam",52.363292,4.918831,3
+Amsterdam,0363010000804708,"Sarphatistraat 484, 1018GW Amsterdam",52.363329,4.918904,2
+Amsterdam,0363010000804709,"Sarphatistraat 486, 1018GW Amsterdam",52.363329,4.918904,3
+Amsterdam,0363010000804710,"Sarphatistraat 488, 1018GW Amsterdam",52.363329,4.918904,2
+Amsterdam,0363010000804715,"Sarphatistraat 490, 1018GW Amsterdam",52.363356,4.918977,2
+Amsterdam,0363010001042104,"Sarphatistraat 492, 1018GW Amsterdam",52.363347,4.918977,2
+Amsterdam,0363010001042103,"Sarphatistraat 492A, 1018GW Amsterdam",52.363329,4.919007,2
+Amsterdam,0363010000804714,"Sarphatistraat 494, 1018GW Amsterdam",52.363338,4.918992,2
+Amsterdam,0363010001008098,"Sarphatistraat 496-1, 1018GW Amsterdam",52.363392,4.919065,2
+Amsterdam,0363010001008099,"Sarphatistraat 496-2, 1018GW Amsterdam",52.363392,4.919065,2
+Amsterdam,0363010001008100,"Sarphatistraat 496-3, 1018GW Amsterdam",52.363392,4.919065,2
+Amsterdam,0363010000804719,"Sarphatistraat 498, 1018GW Amsterdam",52.363392,4.919065,2
+Amsterdam,0363010000804723,"Sarphatistraat 500, 1018AV Amsterdam",52.363726,4.919355,3
+Amsterdam,0363010012148529,"Sausalitolaan 184, 1031KE Amsterdam",52.387487,4.903425,2
+Amsterdam,0363010012148539,"Sausalitolaan 204, 1031KE Amsterdam",52.387475,4.903225,2
+Amsterdam,0363010012148540,"Sausalitolaan 206, 1031KE Amsterdam",52.387505,4.903303,2
+Amsterdam,0363010012148549,"Sausalitolaan 224, 1031KE Amsterdam",52.387483,4.903244,2
+Amsterdam,0363010012148550,"Sausalitolaan 226, 1031KE Amsterdam",52.387513,4.903321,2
+Amsterdam,0363010012148735,"Sausalitolaan 246, 1031KE Amsterdam",52.387518,4.903342,2
+Amsterdam,0363010012148745,"Sausalitolaan 266, 1031KE Amsterdam",52.387491,4.903309,2
+Amsterdam,0363010012148746,"Sausalitolaan 268, 1031KE Amsterdam",52.387496,4.903398,2
+Amsterdam,0363010012148753,"Sausalitolaan 282, 1031KE Amsterdam",52.387470,4.903311,2
+Amsterdam,0363010012148762,"Sausalitolaan 300, Amsterdam",52.387498,4.903209,2
+Amsterdam,0363010000817317,"Sint Agnietenstraat 10, 1012EG Amsterdam",52.370378,4.895174,2
+Amsterdam,0363010000776484,"Sint Agnietenstraat 14, 1012EG Amsterdam",52.370315,4.895204,3
+Amsterdam,0363010000817319,"Sint Agnietenstraat 16, 1012EG Amsterdam",52.370342,4.895366,2
+Amsterdam,0363010000923231,"Veemarkt 47, 1019DA Amsterdam",52.367780,4.935625,2
+Amsterdam,0363020001038819,"Veemarkt 48, 1019DD Amsterdam",52.367340,4.935568,2
+Amsterdam,0363010000923232,"Veemarkt 49, 1019DA Amsterdam",52.367780,4.935786,2
+Amsterdam,0363010000923234,"Veemarkt 51, 1019DA Amsterdam",52.367781,4.935933,2
+Amsterdam,0363010000923235,"Veemarkt 52, 1019DD Amsterdam",52.367545,4.935480,2
+Amsterdam,0363010000923236,"Veemarkt 53, 1019DA Amsterdam",52.367781,4.936109,2
+Amsterdam,0363010000923237,"Veemarkt 54, 1019DD Amsterdam",52.367546,4.935568,2
+Amsterdam,0363010000923238,"Veemarkt 55, 1019DA Amsterdam",52.367782,4.936227,2
+Amsterdam,0363010000923239,"Veemarkt 56, 1019DD Amsterdam",52.367537,4.935657,2
+Amsterdam,0363010000923240,"Veemarkt 57, 1019DA Amsterdam",52.367792,4.936403,2
+Amsterdam,0363010000923241,"Veemarkt 58, 1019DD Amsterdam",52.367547,4.935789,2
+Amsterdam,0363010000923242,"Veemarkt 59, 1019DA Amsterdam",52.367783,4.936564,2
+Amsterdam,0363010000923243,"Veemarkt 60, 1019DD Amsterdam",52.367547,4.935862,2
+Amsterdam,0363010000923245,"Veemarkt 62, 1019DD Amsterdam",52.367538,4.935994,2
+Amsterdam,0363010000923247,"Veemarkt 64, 1019DD Amsterdam",52.367548,4.936097,2
+Amsterdam,0363010000923249,"Veemarkt 66, 1019DD Amsterdam",52.367548,4.936214,2
+Amsterdam,0363010000923251,"Veemarkt 68, 1019DD Amsterdam",52.367540,4.936303,2
+Amsterdam,0363010000923253,"Veemarkt 70, 1019DD Amsterdam",52.367558,4.936420,2
+Amsterdam,0363010000923255,"Veemarkt 72, 1019DD Amsterdam",52.367549,4.936552,2
+Amsterdam,0363010012082729,"Veemarkt 76A, 1019DD Amsterdam",52.367432,4.936301,2
+Rotterdam,0599010000212093,"'s-Gravenweg 81, 3062ZC Rotterdam",51.922834,4.520643,3
+Rotterdam,0599010000159557,"'s-Gravenweg 83, 3062ZC Rotterdam",51.922775,4.520606,3
+Rotterdam,0599010000227376,"'s-Gravenweg 85, 3062ZC Rotterdam",51.922717,4.520568,3
+Rotterdam,0599010000081319,"'s-Gravenweg 87, 3062ZC Rotterdam",51.922660,4.520529,3
+Rotterdam,0599010000227373,"'s-Gravenweg 89, 3062ZC Rotterdam",51.922605,4.520493,3
+Rotterdam,0599010000022527,"'s-Gravenweg 91, 3062ZC Rotterdam",51.922457,4.520922,3
+Rotterdam,0599010000232477,"'s-Gravenweg 93, 3062ZC Rotterdam",51.922515,4.520961,3
+Rotterdam,0599010000137111,"'s-Gravenweg 95, 3062ZC Rotterdam",51.922574,4.520999,3
+Rotterdam,0599010000019851,"'s-Gravenweg 97, 3062ZC Rotterdam",51.922672,4.521143,2
+Rotterdam,0599010000254879,"Baden Powelllaan 12, 3016GJ Rotterdam",51.906783,4.468456,2
+Rotterdam,0599010000293138,"Baden Powelllaan 9, 3016GJ Rotterdam",51.906070,4.467145,3
+Rotterdam,0599010000405689,"Bentincklaan 294, 3039KK Rotterdam",51.924368,4.456308,2
+Rotterdam,0599010000461085,"Bentincklaan 40, 3039KK Rotterdam",51.924896,4.458291,3
+Rotterdam,0599010000347917,"Beurstraverse 126, 3011AM Rotterdam",51.919987,4.480331,2
+Rotterdam,0599010000347919,"Beurstraverse 130, 3011AM Rotterdam",51.919987,4.480219,2
+Rotterdam,0599010000347921,"Beurstraverse 136, 3011AM Rotterdam",51.919961,4.480089,3
+Rotterdam,0599010000347923,"Beurstraverse 140, 3011AM Rotterdam",51.919893,4.480107,2
+Rotterdam,0599010000347924,"Beurstraverse 144, 3012AT Rotterdam",51.919854,4.479928,3
+Rotterdam,0599010000347928,"Beurstraverse 158, 3012AT Rotterdam",51.919888,4.479625,3
+Rotterdam,0599010000347831,"Beurstraverse 55, 3011AE Rotterdam",51.920110,4.480240,2
+Rotterdam,0599010000347909,"Beurstraverse 59, 3011AE Rotterdam",51.920073,4.480042,2
+Rotterdam,0599010000347832,"Beurstraverse 61, 3012AT Rotterdam",51.920130,4.479905,2
+Rotterdam,0599010000347910,"Beurstraverse 67, 3012AT Rotterdam",51.920155,4.479855,2
+Rotterdam,0599010000347837,"Beurstraverse 69, 3012AT Rotterdam",51.920132,4.479646,2
+Rotterdam,0599010400009395,"Brielselaan 143, 3081AB Rotterdam",51.893921,4.477757,2
+Rotterdam,0599010000138844,"Brielselaan 157, 3081AC Rotterdam",51.894104,4.476991,2
+Rotterdam,0599010000225555,"Brielselaan 161A, 3081AC Rotterdam",51.893744,4.477078,3
+Rotterdam,0599010000225551,"Brielselaan 161B, 3081AC Rotterdam",51.893744,4.477078,1
+Rotterdam,0599010000225557,"Brielselaan 161C, 3081AC Rotterdam",51.893744,4.477078,3
+Rotterdam,0599010000225554,"Brielselaan 163A, 3081AC Rotterdam",51.893733,4.477021,1
+Rotterdam,0599010000225550,"Brielselaan 163B, 3081AC Rotterdam",51.893733,4.477021,3
+Rotterdam,0599010000225552,"Brielselaan 163C, 3081AC Rotterdam",51.893733,4.477021,1
+Rotterdam,0599010000225556,"Brielselaan 165A, 3081AC Rotterdam",51.893719,4.476958,3
+Rotterdam,0599010000225549,"Brielselaan 165B, 3081AC Rotterdam",51.893719,4.476958,1
+Rotterdam,0599010000225560,"Brielselaan 165C, 3081AC Rotterdam",51.893719,4.476958,3
+Rotterdam,0599010000225553,"Brielselaan 167A, 3081AC Rotterdam",51.893696,4.476842,1
+Rotterdam,0599010000225548,"Brielselaan 167B, 3081AC Rotterdam",51.893696,4.476842,3
+Rotterdam,0599010000225547,"Brielselaan 167C, 3081AC Rotterdam",51.893696,4.476842,2
+Rotterdam,0599010000225559,"Brielselaan 169A, 3081AC Rotterdam",51.893659,4.476659,3
+Rotterdam,0599010000225558,"Brielselaan 169B, 3081AC Rotterdam",51.893659,4.476659,2
+Rotterdam,0599010400036243,"Brielselaan 171, 3081AC Rotterdam",51.893753,4.476735,3
+Rotterdam,0599010400015254,"Brielselaan 175, 3081AC Rotterdam",51.894241,4.475766,3
+Rotterdam,0599010000270594,"Coolsingel 2, 3011AD Rotterdam",51.924016,4.478573,3
+Rotterdam,0599010000219810,"Coolsingel 5, 3012AA Rotterdam",51.923692,4.477685,3
+Rotterdam,0599010000280553,"Doklaan 30, 3081AD Rotterdam",51.894347,4.472223,2
+Rotterdam,0599010400020458,"Doklaan 40, 3081AD Rotterdam",51.894065,4.473233,2
+Rotterdam,0599010000489434,"Essenburgsingel 30B-03, 3021AP Rotterdam",51.922668,4.458932,3
+Rotterdam,0599010000489433,"Essenburgsingel 30B-04, 3021AP Rotterdam",51.922667,4.458930,2
+Rotterdam,0599010000279137,"Essenburgsingel 31A-02, 3021AP Rotterdam",51.922661,4.458852,3
+Rotterdam,0599010000284294,"Essenburgsingel 31A-03, 3021AP Rotterdam",51.922661,4.458852,2
+Rotterdam,0599010000124416,"Essenburgsingel 31B, 3021AP Rotterdam",51.922661,4.458852,3
+Rotterdam,0599010000072422,"Essenburgsingel 32A, 3021AP Rotterdam",51.922655,4.458772,2
+Rotterdam,0599010000097416,"Essenburgsingel 32B-02, 3021AP Rotterdam",51.922655,4.458772,3
+Rotterdam,0599010000284295,"Essenburgsingel 32B-03, 3021AP Rotterdam",51.922655,4.458772,2
+Rotterdam,0599010400005267,"Essenburgsingel 33A, 3021AP Rotterdam",51.922648,4.458697,3
+Rotterdam,0599010000060971,"Essenburgsingel 33B, 3021AP Rotterdam",51.922648,4.458697,2
+Rotterdam,0599010000204139,"Essenburgsingel 34A, 3021AP Rotterdam",51.922642,4.458624,3
+Rotterdam,0599010000281771,"Essenburgsingel 34B-02, 3021AP Rotterdam",51.922642,4.458624,2
+Rotterdam,0599010000054183,"Essenburgsingel 34B-03, 3021AP Rotterdam",51.922642,4.458624,3
+Rotterdam,0599010000167826,"Essenburgsingel 35, 3021AP Rotterdam",51.922638,4.458550,2
+Rotterdam,0599010000243205,"Essenburgsingel 36A, 3021AP Rotterdam",51.922628,4.458432,3
+Rotterdam,0599010000017445,"Essenburgsingel 36B, 3021AP Rotterdam",51.922628,4.458432,2
+Rotterdam,0599010000132297,"Essenlaan 46, 3062NP Rotterdam",51.922614,4.518819,2
+Rotterdam,0599010000283230,"Essenlaan 50, 3062NP Rotterdam",51.922331,4.519006,2
+Rotterdam,0599010000179516,"Essenlaan 56, 3062NP Rotterdam",51.922215,4.518561,2
+Rotterdam,0599010000067425,"Essenlaan 58, 3062NP Rotterdam",51.922164,4.518527,2
+Rotterdam,0599010000091769,"Essenlaan 62, 3062NP Rotterdam",51.922002,4.518452,2
+Rotterdam,0599010000051681,"G.W. Burgerplein 2A, 3021AV Rotterdam",51.922599,4.458241,2
+Rotterdam,0599010000030015,"G.W. Burgerplein 2B, 3021AV Rotterdam",51.922599,4.458241,3
+Rotterdam,0599010000088915,"Groene Wetering 37, 3062PB Rotterdam",51.921343,4.519908,3
+Rotterdam,0599010110048711,"Hofplein 111, 3011AJ Rotterdam",51.924250,4.478907,2
+Rotterdam,0599010110048712,"Hofplein 112, 3011AJ Rotterdam",51.924250,4.478907,2
+Rotterdam,0599010110048713,"Hofplein 113, 3011AJ Rotterdam",51.924250,4.478907,2
+Rotterdam,0599010110048719,"Hofplein 119, 3011AJ Rotterdam",51.924250,4.478907,2
+Rotterdam,0599010000094124,"Hofplein 32, 3011AJ Rotterdam",51.924175,4.478649,3
+Rotterdam,0599010000015079,"Hofplein 33, 3011AJ Rotterdam",51.924106,4.478622,3
+Rotterdam,0599010000064844,"Lambertweg 40, 3062RA Rotterdam",51.921481,4.520801,3
+Rotterdam,0599010000270598,"Lambertweg 41, 3062RA Rotterdam",51.921774,4.521172,2
+Rotterdam,0599010000170199,"Linker Rottekade 11C, 3034NT Rotterdam",51.935150,4.490398,2
+Rotterdam,0599010110009802,"Linker Rottekade 13A-01, 3034NT Rotterdam",51.935085,4.490382,2
+Rotterdam,0599010110009803,"Linker Rottekade 13A-02, 3034NT Rotterdam",51.935083,4.490382,2
+Rotterdam,0599010110009804,"Linker Rottekade 13A-03, 3034NT Rotterdam",51.935084,4.490379,2
+Rotterdam,0599010110009805,"Linker Rottekade 13A-04, 3034NT Rotterdam",51.935082,4.490382,2
+Rotterdam,0599010110009862,"Linker Rottekade 14A-01, 3034NT Rotterdam",51.935035,4.490382,2
+Rotterdam,0599010110009863,"Linker Rottekade 14A-02, 3034NT Rotterdam",51.935037,4.490381,2
+Rotterdam,0599010110009864,"Linker Rottekade 14A-03, 3034NT Rotterdam",51.935038,4.490382,2
+Rotterdam,0599010110009865,"Linker Rottekade 14A-04, 3034NT Rotterdam",51.935036,4.490381,2
+Rotterdam,0599010000294685,"Linker Rottekade 17A, 3034NV Rotterdam",51.934922,4.490362,2
+Rotterdam,0599010110009806,"Linker Rottekade 17B-01, 3034NV Rotterdam",51.934944,4.490370,2
+Rotterdam,0599010110009807,"Linker Rottekade 17B-02, 3034NV Rotterdam",51.934943,4.490368,2
+Rotterdam,0599010110009808,"Linker Rottekade 18A, 3034NV Rotterdam",51.934895,4.490363,2
+Rotterdam,0599010110009809,"Linker Rottekade 18B-01, 3034NV Rotterdam",51.934897,4.490365,2
+Rotterdam,0599010110009810,"Linker Rottekade 18B-02, 3034NV Rotterdam",51.934894,4.490363,2
+Rotterdam,0599010110009811,"Linker Rottekade 19A, 3034NV Rotterdam",51.934853,4.490352,2
+Rotterdam,0599010110009812,"Linker Rottekade 19B-01, 3034NV Rotterdam",51.934853,4.490350,2
+Rotterdam,0599010110009813,"Linker Rottekade 19B-02, 3034NV Rotterdam",51.934852,4.490349,2
+Rotterdam,0599010110009814,"Linker Rottekade 20A-01, 3034NV Rotterdam",51.934807,4.490357,2
+Rotterdam,0599010110009816,"Linker Rottekade 20A-03, 3034NV Rotterdam",51.934808,4.490357,2
+Rotterdam,0599010000162857,"Maaskade 176A, 3071NT Rotterdam",51.910255,4.488670,3
+Rotterdam,0599010000188283,"Maaskade 176B, 3071NT Rotterdam",51.910255,4.488670,2
+Rotterdam,0599010000139313,"Maaskade 176C, 3071NT Rotterdam",51.910255,4.488670,3
+Rotterdam,0599010000145580,"Maaskade 176D, 3071NT Rotterdam",51.910255,4.488670,2
+Rotterdam,0599010000207183,"Maaskade 177A, 3071NT Rotterdam",51.910188,4.488609,3
+Rotterdam,0599010000089859,"Maaskade 177B, 3071NT Rotterdam",51.910188,4.488609,2
+Rotterdam,0599010000039646,"Maaskade 177C, 3071NT Rotterdam",51.910188,4.488609,3
+Rotterdam,0599010000125537,"Maaskade 177D, 3071NT Rotterdam",51.910188,4.488609,2
+Rotterdam,0599010000093746,"Meeuwenstraat 2A, 3071PE Rotterdam",51.910087,4.488817,2
+Rotterdam,0599010000188286,"Meeuwenstraat 2B, 3071PE Rotterdam",51.910087,4.488817,2
+Rotterdam,0599010000042882,"Meeuwenstraat 2C, 3071PE Rotterdam",51.910087,4.488817,2
+Rotterdam,0599010000128088,"Meeuwenstraat 2D, 3071PE Rotterdam",51.910087,4.488817,2
+Rotterdam,0599010000032190,"Meeuwenstraat 4A, 3071PE Rotterdam",51.910054,4.488908,2
+Rotterdam,0599010000046265,"Meeuwenstraat 4B, 3071PE Rotterdam",51.910054,4.488908,2
+Rotterdam,0599010000076120,"Meeuwenstraat 4C, 3071PE Rotterdam",51.910054,4.488908,2
+Rotterdam,0599010000167045,"Meeuwenstraat 4D, 3071PE Rotterdam",51.910054,4.488908,2
+Rotterdam,0599010000272666,"Meeuwenstraat 6A, 3071PE Rotterdam",51.910020,4.489003,2
+Rotterdam,0599010000133202,"Meeuwenstraat 6B, 3071PE Rotterdam",51.910020,4.489003,2
+Rotterdam,0599010000042883,"Meeuwenstraat 6C, 3071PE Rotterdam",51.910020,4.489003,2
+Rotterdam,0599010000219261,"Meeuwenstraat 6D, 3071PE Rotterdam",51.910020,4.489003,2
+Rotterdam,0599010000437287,"Müllerkade 183, 3024EP Rotterdam",51.905045,4.463559,3
+Rotterdam,0599010000437288,"Müllerkade 185, 3024EP Rotterdam",51.905001,4.463587,2
+Rotterdam,0599010000437289,"Müllerkade 187, 3024EP Rotterdam",51.904950,4.463617,3
+Rotterdam,0599010000485325,"Müllerkade 189, Rotterdam",51.904830,4.463693,3
+Rotterdam,0599010000437291,"Müllerkade 191, 3024EP Rotterdam",51.904685,4.463784,3
+Rotterdam,0599010000437294,"Müllerkade 197, 3024EP Rotterdam",51.904638,4.463788,3
+Rotterdam,0599010000437298,"Müllerkade 205, 3024EP Rotterdam",51.904638,4.463788,3
+Rotterdam,0599010000437304,"Müllerkade 217, 3024EP Rotterdam",51.904638,4.463788,3
+Rotterdam,0599010000437318,"Müllerkade 245, 3024EP Rotterdam",51.904638,4.463788,3
+Rotterdam,0599010000250669,"Oranjeboomstraat 32A, 3071BA Rotterdam",51.912025,4.502734,2
+Rotterdam,0599010000250670,"Oranjeboomstraat 32B, 3071BA Rotterdam",51.912025,4.502734,2
+Rotterdam,0599010000250671,"Oranjeboomstraat 32C, 3071BA Rotterdam",51.912025,4.502734,2
+Rotterdam,0599010000250672,"Oranjeboomstraat 32D, 3071BA Rotterdam",51.912025,4.502734,2
+Rotterdam,0599010000250673,"Oranjeboomstraat 32E, 3071BA Rotterdam",51.912025,4.502734,2
+Rotterdam,0599010000250674,"Oranjeboomstraat 32F, 3071BA Rotterdam",51.912025,4.502734,2
+Rotterdam,0599010000250675,"Oranjeboomstraat 34, 3071BA Rotterdam",51.911953,4.502849,2
+Rotterdam,0599010000250676,"Oranjeboomstraat 36A, 3071BA Rotterdam",51.911921,4.502897,2
+Rotterdam,0599010000250677,"Oranjeboomstraat 36B, 3071BA Rotterdam",51.911921,4.502897,2
+Rotterdam,0599010000250678,"Oranjeboomstraat 36C, 3071BA Rotterdam",51.911921,4.502897,2
+Rotterdam,0599010000250679,"Oranjeboomstraat 36D, 3071BA Rotterdam",51.911921,4.502897,2
+Rotterdam,0599010000250680,"Oranjeboomstraat 36E, 3071BA Rotterdam",51.911921,4.502897,2
+Rotterdam,0599010000250681,"Oranjeboomstraat 36F, 3071BA Rotterdam",51.911921,4.502897,2
+Rotterdam,0599010000250682,"Oranjeboomstraat 38, 3071BA Rotterdam",51.911869,4.502962,2
+Rotterdam,0599010000247912,"Oranjeboomstraat 40A, 3071BA Rotterdam",51.911808,4.503053,2
+Rotterdam,0599010000247913,"Oranjeboomstraat 40B, 3071BA Rotterdam",51.911808,4.503053,2
+Rotterdam,0599010000247914,"Oranjeboomstraat 40C, 3071BA Rotterdam",51.911808,4.503053,2
+Rotterdam,0599010000247915,"Oranjeboomstraat 40D, 3071BA Rotterdam",51.911808,4.503053,2
+Rotterdam,0599010000247916,"Oranjeboomstraat 40E, 3071BA Rotterdam",51.911808,4.503053,2
+Rotterdam,0599010000247917,"Oranjeboomstraat 40F, 3071BA Rotterdam",51.911808,4.503053,2
+Rotterdam,0599020000436148,"Parkhaven 11, 3016GM Rotterdam",51.905259,4.465648,3
+Rotterdam,0599020110000542,"Parkhaven 15, 3016GM Rotterdam",51.904810,4.465793,3
+Rotterdam,0599020110000582,"Parkhaven 19, 3016GM Rotterdam",51.904259,4.466120,2
+Rotterdam,0599010000165687,"Parkhaven 20, 3016GM Rotterdam",51.905402,4.466512,3
+Rotterdam,0599020000436147,"Parkhaven 9, 3016GM Rotterdam",51.905528,4.465497,2
+Rotterdam,0599010000254941,"Pompenburg 646, 3011AX Rotterdam",51.924366,4.478928,2
+Rotterdam,0599010000254942,"Pompenburg 652, 3011AX Rotterdam",51.924348,4.478845,2
+Rotterdam,0599010000255161,"Puntegaalstraat 10, 3024EB Rotterdam",51.906818,4.463652,3
+Rotterdam,0599010000205381,"Robert Owenstraat 10, 3045PT Rotterdam",51.945339,4.460886,2
+Rotterdam,0599010000241669,"Robert Owenstraat 11, 3045PT Rotterdam",51.945313,4.461114,2
+Rotterdam,0599010000284619,"Robert Owenstraat 12, 3045PT Rotterdam",51.945291,4.460898,2
+Rotterdam,0599010000199270,"Robert Owenstraat 13, 3045PT Rotterdam",51.945268,4.461126,2
+Rotterdam,0599010000070148,"Robert Owenstraat 14, 3045PT Rotterdam",51.945245,4.460912,2
+Rotterdam,0599010000239148,"Robert Owenstraat 15, 3045PT Rotterdam",51.945224,4.461137,2
+Rotterdam,0599010000158427,"Robert Owenstraat 16, 3045PT Rotterdam",51.945202,4.460923,2
+Rotterdam,0599010000195229,"Robert Owenstraat 17, 3045PT Rotterdam",51.945182,4.461148,2
+Rotterdam,0599010000184036,"Robert Owenstraat 18, 3045PT Rotterdam",51.945158,4.460936,2
+Rotterdam,0599010000057149,"Robert Owenstraat 19, 3045PT Rotterdam",51.945132,4.461161,2
+Rotterdam,0599010000129802,"Robert Owenstraat 2, 3045PT Rotterdam",51.945510,4.460855,2
+Rotterdam,0599010000284620,"Robert Owenstraat 20, 3045PT Rotterdam",51.945110,4.460949,2
+Rotterdam,0599010000110611,"Robert Owenstraat 21, 3045PT Rotterdam",51.945091,4.461171,2
+Rotterdam,0599010000132417,"Robert Owenstraat 22, 3045PT Rotterdam",51.945070,4.460960,2
+Rotterdam,0599010000085243,"Robert Owenstraat 23, 3045PT Rotterdam",51.945056,4.461182,2
+Rotterdam,0599010000091908,"Robert Owenstraat 24, 3045PT Rotterdam",51.945036,4.460970,2
+Rotterdam,0599010000276052,"Robert Owenstraat 4, 3045PT Rotterdam",51.945475,4.460864,2
+Rotterdam,0599010000192696,"Robert Owenstraat 6, 3045PT Rotterdam",51.945429,4.460877,2
+Rotterdam,0599010000054513,"Robert Owenstraat 8, 3045PT Rotterdam",51.945386,4.460889,2
+Rotterdam,0599010000030389,"Robert Owenstraat 9, 3045PT Rotterdam",51.945361,4.461099,2
+Rotterdam,0599010000336477,"Schiekade 29A, 3033BB Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000338263,"Schiekade 29B, 3033BB Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000165624,"Schiekade 29C, 3033BB Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000165188,"Schiekade 31A, 3033BB Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000103921,"Schiekade 31D, 3033BB Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000275682,"Schiekade 33A, 3033BB Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000110197,"Schiekade 33C, 3033BB Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000121814,"Schiekade 33G, 3033BB Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000107565,"Schiekade 33H, 3033BB Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000103923,"Schiekade 35D, 3033BB Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000103198,"Schiekade 35E, 3033BB Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000092285,"Schiekade 35H, 3033BB Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000094156,"Schiekade 37G, 3033BC Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000096963,"Schiekade 39B, 3033BC Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000093876,"Schiekade 39D, 3033BC Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000096366,"Schiekade 39G, 3033BC Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000215444,"Schiekade 41D, 3033BC Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000094936,"Schiekade 41H, 3033BC Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000094933,"Schiekade 43G, 3033BC Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000094934,"Schiekade 43H, 3033BC Rotterdam",51.930178,4.470215,2
+Rotterdam,0599010000179537,"Sint-Jobsweg 2A, 3024EJ Rotterdam",51.906170,4.463087,3
+Rotterdam,0599010000185995,"Sint-Jobsweg 2B, 3024EJ Rotterdam",51.906170,4.463087,2
+Rotterdam,0599010000461087,"Sint-Jobsweg 6, 3024EJ Rotterdam",51.905847,4.463360,2
+Rotterdam,0599010000205271,"Van Somerenweg 39, 3062RG Rotterdam",51.921739,4.521500,2
+Rotterdam,0599010000289609,"Van Somerenweg 45, 3062RG Rotterdam",51.921305,4.520731,2
+Rotterdam,0599010000020022,"Weena 4, 3012CM Rotterdam",51.923729,4.477385,2
+Rotterdam,0599010000076681,"Weena 6, 3012CM Rotterdam",51.923711,4.477293,3
+Rotterdam,0599010000196964,"Weena 95, 3013CH Rotterdam",51.924901,4.476963,3
+Rotterdam,0599010000188831,"Weena 99, 3013CH Rotterdam",51.924863,4.476773,2
+Rotterdam,0599010000476139,"Wijnhaven 33A, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476145,"Wijnhaven 35A, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476146,"Wijnhaven 35B, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476152,"Wijnhaven 37B, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476157,"Wijnhaven 37G, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476158,"Wijnhaven 37H, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476166,"Wijnhaven 39H, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476168,"Wijnhaven 41B, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476173,"Wijnhaven 41G, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476176,"Wijnhaven 43C, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476177,"Wijnhaven 43D, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476181,"Wijnhaven 45B, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476182,"Wijnhaven 45C, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476190,"Wijnhaven 49A, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476191,"Wijnhaven 49B, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476193,"Wijnhaven 49D, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476196,"Wijnhaven 51C, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476198,"Wijnhaven 53A, 3011WH Rotterdam",51.918474,4.490266,2
+Rotterdam,0599010000476212,"Wijnhaven 55, Rotterdam",51.918440,4.490212,2
+Rotterdam,0599010110011380,"Wijnhaven 59, 3011WJ Rotterdam",51.918299,4.489498,2
+Utrecht,0344010000048496,"Abraham Bloemaertstraat 13, 3514VN Utrecht",52.099838,5.119809,3
+Utrecht,0344010000048498,"Abraham Bloemaertstraat 15, 3514VN Utrecht",52.099882,5.119827,2
+Utrecht,0344010000145875,"Abraham Bloemaertstraat 17, 3514VN Utrecht",52.099929,5.119846,3
+Utrecht,0344010000048501,"Abraham Bloemaertstraat 19, 3514VN Utrecht",52.099976,5.119867,2
+Utrecht,0344010000145876,"Abraham Bloemaertstraat 21, 3514VN Utrecht",52.100025,5.119887,2
+Utrecht,0344010000048504,"Abraham Bloemaertstraat 23, 3514VN Utrecht",52.100042,5.119894,2
+Utrecht,0344010000107306,"Abraham Bloemaertstraat 23A, 3514VN Utrecht",52.100054,5.119899,2
+Utrecht,0344010000107307,"Abraham Bloemaertstraat 23B, 3514VN Utrecht",52.100067,5.119904,2
+Utrecht,0344010000120704,"Abraham Bloemaertstraat 25, 3514VN Utrecht",52.100080,5.119910,2
+Utrecht,0344010000001787,"Abstederdijk 180, 3582BV Utrecht",52.084799,5.135071,2
+Utrecht,0344010000123892,"Abstederdijk 180A, 3582BV Utrecht",52.084792,5.135110,2
+Utrecht,0344010000039328,"Amsterdamsestraatweg 1, 3513AA Utrecht",52.095829,5.109383,2
+Utrecht,0344010000047169,"Aquamarijnlaan 19, 3523EK Utrecht",52.072089,5.122916,2
+Utrecht,0344010000047170,"Aquamarijnlaan 21, 3523EK Utrecht",52.072081,5.122942,2
+Utrecht,0344010000047171,"Aquamarijnlaan 23, 3523EK Utrecht",52.072060,5.123008,2
+Utrecht,0344010000000100,"Aquamarijnlaan 23A, 3523EK Utrecht",52.072018,5.123089,2
+Utrecht,0344010000188841,"Archimedeslaan 1, 3584BA Utrecht",52.095298,5.150591,3
+Utrecht,0344010000076627,"Archimedeslaan 6, 3584BA Utrecht",52.094580,5.153205,2
+Utrecht,0344010000203671,"Archimedeslaan 6A, 3584BA Utrecht",52.094644,5.153152,3
+Utrecht,0344010000047794,"Biltsestraatweg 102, 3573PS Utrecht",52.097756,5.151258,2
+Utrecht,0344010000147742,"Biltsestraatweg 108, 3573PS Utrecht",52.097642,5.150435,3
+Utrecht,0344010000077157,"Biltsestraatweg 150, 3573PS Utrecht",52.097226,5.147363,3
+Utrecht,0344010000077158,"Biltsestraatweg 160, 3573PS Utrecht",52.097072,5.147036,1
+Utrecht,0344010000112305,"Biltsestraatweg 225D-B, 3584BE Utrecht",52.096357,5.148513,3
+Utrecht,0344010000156098,"Biltsestraatweg 225D-C, 3584BE Utrecht",52.095797,5.147754,3
+Utrecht,0344010000112306,"Biltsestraatweg 225D-E, 3584BE Utrecht",52.095675,5.147430,3
+Utrecht,0344010000112307,"Biltsestraatweg 225D-G, 3584BE Utrecht",52.095023,5.146791,3
+Utrecht,0344010000170190,"Biltsestraatweg 225D-H, 3584BE Utrecht",52.096500,5.147813,3
+Utrecht,0344010000112308,"Biltsestraatweg 225D-L, 3584BE Utrecht",52.096442,5.147373,2
+Utrecht,0344010000156099,"Biltsestraatweg 225D-M, 3584BE Utrecht",52.096037,5.147319,3
+Utrecht,0344010000112873,"Biltsestraatweg 225D-O, 3584BE Utrecht",52.095357,5.147375,3
+Utrecht,0344010000112309,"Biltsestraatweg 225D-T, 3584BE Utrecht",52.095562,5.147038,3
+Utrecht,0344010000112872,"Biltsestraatweg 225D-TR, 3584BE Utrecht",52.095636,5.147507,3
+Utrecht,0344010000035950,"Budapestlaan 17, 3584CD Utrecht",52.088062,5.170262,1
+Utrecht,0344010000156257,"Budapestlaan 8, 3584CD Utrecht",52.088212,5.167514,2
+Utrecht,0344010000007911,"Daalsesingel 1, 3511SV Utrecht",52.094373,5.109688,2
+Utrecht,0344010000007913,"Daalsetunnel 101, 3513AG Utrecht",52.094418,5.108975,2
+Utrecht,0344010000054250,"Domplein 10, 3512JC Utrecht",52.090936,5.120999,2
+Utrecht,0344010000054258,"Domplein 17-BS, 3512JD Utrecht",52.090768,5.120840,2
+Utrecht,0344010000146618,"Domplein 17-BSA, 3512JD Utrecht",52.090756,5.120847,2
+Utrecht,0344010000054323,"Domplein 17-BSB, 3512JD Utrecht",52.090744,5.120854,2
+Utrecht,0344010000054325,"Domplein 20-BS, 3512JD Utrecht",52.090657,5.120904,2
+Utrecht,0344010000054324,"Domplein 20, 3512JD Utrecht",52.090669,5.120897,2
+Utrecht,0344010000054326,"Domplein 21, 3512JE Utrecht",52.090617,5.121432,3
+Utrecht,0344010000054327,"Domplein 21A, 3512JE Utrecht",52.090538,5.121484,3
+Utrecht,0344010000156357,"Domplein 21B, Utrecht",52.090576,5.121437,3
+Utrecht,0344010000054328,"Domplein 22, 3512JE Utrecht",52.090435,5.121537,3
+Utrecht,0344010000156821,"Domplein 23-BS, 3512JE Utrecht",52.090406,5.121551,3
+Utrecht,0344010000146739,"Domplein 23, 3512JE Utrecht",52.090419,5.121546,3
+Utrecht,0344010000053003,"Domplein 5, 3512JC Utrecht",52.090981,5.121164,2
+Utrecht,0344010000053005,"Domplein 8-BS, 3512JC Utrecht",52.090969,5.121113,2
+Utrecht,0344010000053004,"Domplein 8, 3512JC Utrecht",52.090973,5.121132,2
+Utrecht,0344010000054249,"Domplein 9-BS, 3512JC Utrecht",52.090948,5.121037,2
+Utrecht,0344010000054248,"Domplein 9, 3512JC Utrecht",52.090953,5.121057,2
+Utrecht,0344010000135990,"Harvardlaan 10, 3584CV Utrecht",52.090306,5.172218,3
+Utrecht,0344010000223091,"Harvardlaan 10, 3584CV Utrecht",52.089950,5.171508,2
+Utrecht,0344010000160211,"Harvardlaan 2, 3584CV Utrecht",52.089362,5.175886,2
+Utrecht,0344010000055805,"Havikstraat 44, 3514TS Utrecht",52.099898,5.120290,2
+Utrecht,0344010000148208,"Havikstraat 46-BS, 3514TS Utrecht",52.099936,5.120306,2
+Utrecht,0344010000055808,"Havikstraat 46, 3514TS Utrecht",52.099949,5.120312,2
+Utrecht,0344010000123099,"Havikstraat 48-BS, 3514TS Utrecht",52.099983,5.120326,2
+Utrecht,0344010000055810,"Havikstraat 48, 3514TS Utrecht",52.099995,5.120331,2
+Utrecht,0344010000200403,"Hebe Kohlbruggeweg 28, 3527MD Utrecht",52.079914,5.104893,3
+Utrecht,0344010000200404,"Hebe Kohlbruggeweg 30, 3527MD Utrecht",52.079958,5.104935,3
+Utrecht,0344010000200405,"Hebe Kohlbruggeweg 32, 3527MD Utrecht",52.080000,5.104983,3
+Utrecht,0344010000200406,"Hebe Kohlbruggeweg 34, 3527MD Utrecht",52.080047,5.105028,3
+Utrecht,0344010000200408,"Hebe Kohlbruggeweg 38, 3527MD Utrecht",52.080106,5.105076,3
+Utrecht,0344010000200409,"Hebe Kohlbruggeweg 40, 3527MD Utrecht",52.080106,5.105076,3
+Utrecht,0344010000200410,"Hebe Kohlbruggeweg 42, 3527MD Utrecht",52.080106,5.105076,3
+Utrecht,0344010000200411,"Hebe Kohlbruggeweg 44, 3527MD Utrecht",52.080106,5.105076,3
+Utrecht,0344010000200412,"Hebe Kohlbruggeweg 46, 3527MD Utrecht",52.080106,5.105076,3
+Utrecht,0344010000200413,"Hebe Kohlbruggeweg 48, 3527MD Utrecht",52.080106,5.105076,3
+Utrecht,0344010000200414,"Hebe Kohlbruggeweg 50, 3527MD Utrecht",52.080106,5.105076,3
+Utrecht,0344010000200415,"Hebe Kohlbruggeweg 52, 3527MD Utrecht",52.080106,5.105076,3
+Utrecht,0344010000200416,"Hebe Kohlbruggeweg 54, 3527MD Utrecht",52.080106,5.105076,3
+Utrecht,0344010000200418,"Hebe Kohlbruggeweg 58, 3527MD Utrecht",52.080108,5.105079,3
+Utrecht,0344010000200421,"Hebe Kohlbruggeweg 64, 3527MD Utrecht",52.080106,5.105076,3
+Utrecht,0344010000200423,"Hebe Kohlbruggeweg 68, 3527MD Utrecht",52.080106,5.105076,3
+Utrecht,0344010000200428,"Hebe Kohlbruggeweg 78, 3527MD Utrecht",52.080106,5.105076,3
+Utrecht,0344010000200430,"Hebe Kohlbruggeweg 82, 3527MD Utrecht",52.080106,5.105076,3
+Utrecht,0344010000200432,"Hebe Kohlbruggeweg 86, 3527MD Utrecht",52.080108,5.105079,3
+Utrecht,0344010000200433,"Hebe Kohlbruggeweg 88, 3527MD Utrecht",52.080108,5.105079,3
+Utrecht,0344010000118504,"Heringastraat 16, 3551XL Utrecht",52.103604,5.097951,2
+Utrecht,0344010000099109,"Heringastraat 18, 3551XL Utrecht",52.103643,5.098005,2
+Utrecht,0344010000127878,"Heringastraat 20, 3551XL Utrecht",52.103682,5.098059,2
+Utrecht,0344010000099680,"Heringastraat 22, 3551XL Utrecht",52.103720,5.098113,2
+Utrecht,0344010000118505,"Heringastraat 24, 3551XL Utrecht",52.103759,5.098167,2
+Utrecht,0344010000099681,"Heringastraat 26, 3551XL Utrecht",52.103798,5.098222,2
+Utrecht,0344010000099682,"Heringastraat 28, 3551XL Utrecht",52.103837,5.098276,2
+Utrecht,0344010000118506,"Heringastraat 30, 3551XL Utrecht",52.103850,5.098295,2
+Utrecht,0344010000047346,"Jan van Arkelstraat 1, 3523VE Utrecht",52.071927,5.123339,2
+Utrecht,0344010000047353,"Jan van Arkelstraat 11, 3523VE Utrecht",52.071678,5.123228,2
+Utrecht,0344010000147269,"Jan van Arkelstraat 13, 3523VE Utrecht",52.071626,5.123207,2
+Utrecht,0344010000047347,"Jan van Arkelstraat 3, 3523VE Utrecht",52.071909,5.123332,2
+Utrecht,0344010000047349,"Jan van Arkelstraat 5, 3523VE Utrecht",52.071857,5.123309,2
+Utrecht,0344010000047350,"Jan van Arkelstraat 7, 3523VE Utrecht",52.071805,5.123287,2
+Utrecht,0344010000147268,"Jan van Arkelstraat 9, 3523VE Utrecht",52.071695,5.123237,2
+Utrecht,0344010000003599,"Joan Röellstraat 12, 3551XJ Utrecht",52.104060,5.097349,2
+Utrecht,0344010000118508,"Joan Röellstraat 13, 3551XJ Utrecht",52.103740,5.097565,2
+Utrecht,0344010000099687,"Joan Röellstraat 15, 3551XJ Utrecht",52.103780,5.097620,2
+Utrecht,0344010000099688,"Joan Röellstraat 17, 3551XJ Utrecht",52.103818,5.097674,2
+Utrecht,0344010000118509,"Joan Röellstraat 19, 3551XJ Utrecht",52.103857,5.097728,2
+Utrecht,0344010000099689,"Joan Röellstraat 21, 3551XJ Utrecht",52.103896,5.097782,2
+Utrecht,0344010000099690,"Joan Röellstraat 23, 3551XJ Utrecht",52.103935,5.097836,2
+Utrecht,0344010000118510,"Joan Röellstraat 25, 3551XJ Utrecht",52.103973,5.097891,2
+Utrecht,0344010000099691,"Joan Röellstraat 27, 3551XJ Utrecht",52.104012,5.097945,2
+Utrecht,0344010000099692,"Joan Röellstraat 29, 3551XJ Utrecht",52.104026,5.097964,2
+Utrecht,0344010000144307,"Johannes de Bekastraat 4-BS, 3514VM Utrecht",52.100124,5.120182,2
+Utrecht,0344010000047251,"Johannes de Bekastraat 4, 3514VM Utrecht",52.100127,5.120164,2
+Utrecht,0344010000123730,"Johannes de Bekastraat 6, 3514VM Utrecht",52.100144,5.120080,2
+Utrecht,0344010000047252,"Johannes de Bekastraat 8, 3514VM Utrecht",52.100157,5.120000,2
+Utrecht,0344010000107308,"Johannes de Bekastraat 8A, 3514VM Utrecht",52.100160,5.119973,2
+Utrecht,0344010000107309,"Johannes de Bekastraat 8B, 3514VM Utrecht",52.100164,5.119953,2
+Utrecht,0344010000010912,"Kasaidreef 117, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000010913,"Kasaidreef 119, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000121271,"Kasaidreef 123, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000132403,"Kasaidreef 125, 3564AV Utrecht",52.118105,5.108612,3
+Utrecht,0344010000010914,"Kasaidreef 127, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000035582,"Kasaidreef 129, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000121272,"Kasaidreef 131, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000121273,"Kasaidreef 137, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000010917,"Kasaidreef 139, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000121274,"Kasaidreef 141, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000010918,"Kasaidreef 143, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000035583,"Kasaidreef 145, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000010919,"Kasaidreef 147, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000121275,"Kasaidreef 149, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000035584,"Kasaidreef 153, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000121276,"Kasaidreef 157, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000010921,"Kasaidreef 159, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000010924,"Kasaidreef 167, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000121278,"Kasaidreef 169, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000010460,"Kasaidreef 171, 3564AV Utrecht",52.118105,5.108612,2
+Utrecht,0344010000060946,"Leidseweg 90, 3531BG Utrecht",52.087451,5.095989,2
+Utrecht,0344010000205294,"Leidseweg 90, 3531BG Utrecht",52.087639,5.096333,3
+Utrecht,0344010000205295,"Leidseweg 90A, 3531BG Utrecht",52.087422,5.096037,2
+Utrecht,0344010000060947,"Leidseweg 90A, 3531BG Utrecht",52.087451,5.095989,3
+Utrecht,0344010000205296,"Leidseweg 90B, 3531BG Utrecht",52.087422,5.096037,2
+Utrecht,0344010000060948,"Leidseweg 90B, 3531BG Utrecht",52.087451,5.095989,3
+Utrecht,0344010000205297,"Leidseweg 90C, 3531BG Utrecht",52.087422,5.096037,3
+Utrecht,0344010000060949,"Leidseweg 90C, 3531BG Utrecht",52.087451,5.095989,3
+Utrecht,0344010000205298,"Leidseweg 90D, 3531BG Utrecht",52.087422,5.096037,3
+Utrecht,0344010000205299,"Leidseweg 90E, 3531BG Utrecht",52.087422,5.096037,3
+Utrecht,0344010000205300,"Leidseweg 90F, 3531BG Utrecht",52.087422,5.096037,3
+Utrecht,0344010000125866,"Merkesstraat 1, 3584BG Utrecht",52.096204,5.146147,3
+Utrecht,0344010000065326,"Merkesstraat 2, 3584BG Utrecht",52.096191,5.146127,3
+Utrecht,0344010000065327,"Merkesstraat 3, 3584BG Utrecht",52.095942,5.146039,3
+Utrecht,0344010000071022,"Muntkade 1-BS, 3531AK Utrecht",52.086665,5.096791,2
+Utrecht,0344010000071023,"Muntkade 1-BSA, 3531AK Utrecht",52.086657,5.096808,2
+Utrecht,0344010000151761,"Muntkade 1-BSB, 3531AK Utrecht",52.086649,5.096825,2
+Utrecht,0344010000210722,"Muntkade 1, 3531AK Utrecht",52.086641,5.096841,2
+Utrecht,0344010000205301,"Muntkade 1A, 3531AK Utrecht",52.087061,5.096127,2
+Utrecht,0344010000205302,"Muntkade 1B, 3531AK Utrecht",52.086942,5.096373,2
+Utrecht,0344010000189080,"Paardenveld 3, 3511RD Utrecht",52.095092,5.111076,2
+Utrecht,0344010000122043,"Princetonlaan 10, 3584CB Utrecht",52.088632,5.168157,3
+Utrecht,0344010000173217,"Princetonlaan 1000N, Utrecht",52.089091,5.167379,3
+Utrecht,0344010000173218,"Princetonlaan 1000T, Utrecht",52.089127,5.167381,3
+Utrecht,0344010000092869,"Princetonlaan 6, 3584CB Utrecht",52.088630,5.166450,2
+Utrecht,0344010000159580,"Princetonlaan 8, 3584CB Utrecht",52.088659,5.166859,2
+Utrecht,0344010000173216,"Princetonlaan 8A, 3584CB Utrecht",52.088841,5.167651,2
+Utrecht,0344010000073778,"Royaards van den Hamkade 14, 3552CM Utrecht",52.103982,5.098188,2
+Utrecht,0344010000073783,"Royaards van den Hamkade 18, 3552CM Utrecht",52.104234,5.097722,2
+Utrecht,0344010000126320,"Servetstraat 5A, 3512JG Utrecht",52.090508,5.120972,2
+Utrecht,0344010000094692,"Servetstraat 5B, 3512JG Utrecht",52.090508,5.121046,2
+Utrecht,0344010000069471,"Servetstraat 7, 3512JG Utrecht",52.090544,5.121175,2
+Utrecht,0344010000044741,"Steijnstraat 21, 3531AV Utrecht",52.086727,5.097038,2
+Utrecht,0344010000124733,"Steijnstraat 25, 3531AV Utrecht",52.086717,5.097022,2
+Utrecht,0344010000034885,"Steijnstraat 27, 3531AV Utrecht",52.086707,5.097008,2
+Utrecht,0310010000696121,"Universiteitsweg 12, 3732HX De Bilt",52.096218,5.175104,3
+Utrecht,0344010000200798,"Uppsalalaan 1000T, Utrecht",52.090209,5.175400,2
+Utrecht,0344010000177437,"Uppsalalaan 1001N, Utrecht",52.090609,5.177091,3
+Utrecht,0344010000177438,"Uppsalalaan 1001T, Utrecht",52.090619,5.177132,3
+Utrecht,0344010000177436,"Uppsalalaan 15, 3584CT Utrecht",52.090602,5.177054,2
+Utrecht,0344010000132352,"Uppsalalaan 3, 3584CT Utrecht",52.091151,5.175131,3
+Utrecht,0344010000112109,"Uppsalalaan 5, 3584CT Utrecht",52.091768,5.178105,3
+Utrecht,0344010000112110,"Uppsalalaan 9, 3584CT Utrecht",52.091768,5.178105,3
+Utrecht,0344010000072001,"W.A. Vultostraat 130, 3523TZ Utrecht",52.071763,5.122509,2
+Utrecht,0344010000072003,"W.A. Vultostraat 132, 3523TZ Utrecht",52.071855,5.122550,2
+Utrecht,0344010000152744,"W.A. Vultostraat 134, 3523TZ Utrecht",52.071900,5.122571,2
+Utrecht,0344010000072005,"W.A. Vultostraat 136, 3523TZ Utrecht",52.071946,5.122591,2
+Utrecht,0344010000072007,"W.A. Vultostraat 138, 3523TZ Utrecht",52.071988,5.122611,2
+Utrecht,0344010000072008,"W.A. Vultostraat 140, 3523TZ Utrecht",52.072037,5.122633,2
+Utrecht,0344010000072010,"W.A. Vultostraat 142, 3523TZ Utrecht",52.072082,5.122654,2
+Utrecht,0344010000157779,"W.A. Vultostraat 144, 3523TZ Utrecht",52.072128,5.122675,2
+Utrecht,0344010000072012,"W.A. Vultostraat 146, 3523TZ Utrecht",52.072144,5.122682,2
+Utrecht,0344010000078220,"Weerdsingel W.Z. 10, 3513BA Utrecht",52.095818,5.109913,2
+Utrecht,0344010000155388,"Weerdsingel W.Z. 11-BS, 3513BA Utrecht",52.095848,5.110006,2
+Utrecht,0344010000078221,"Weerdsingel W.Z. 11, 3513BA Utrecht",52.095854,5.110025,2
+Utrecht,0344010000078222,"Weerdsingel W.Z. 12-BS, 3513BA Utrecht",52.095860,5.110043,2
+Utrecht,0344010000128096,"Weerdsingel W.Z. 12-BSA, 3513BA Utrecht",52.095860,5.110043,2
+Utrecht,0344010000126925,"Weerdsingel W.Z. 12, 3513BA Utrecht",52.095866,5.110062,2
+Utrecht,0344010000078223,"Weerdsingel W.Z. 14, 3513BA Utrecht",52.095896,5.110155,2
+Utrecht,0344010000194132,"Weerdsingel W.Z. 15, 3513BA Utrecht",52.095909,5.110195,2
+Utrecht,0344010000201657,"Weerdsingel W.Z. 8-1, 3513BA Utrecht",52.095720,5.109630,2
+Utrecht,0344010000201656,"Weerdsingel W.Z. 8, 3513BA Utrecht",52.095761,5.109521,2
+Utrecht,0344010000078218,"Weerdsingel W.Z. 8A, 3513BA Utrecht",52.095766,5.109753,2
+Utrecht,0344010000084070,"Weerdsingel W.Z. 8B, 3513BA Utrecht",52.095766,5.109753,2
+Utrecht,0344010000084071,"Weerdsingel W.Z. 8C, 3513BA Utrecht",52.095766,5.109753,2
+Utrecht,0344010000078219,"Weerdsingel W.Z. 9, 3513BA Utrecht",52.095788,5.109826,2
+Utrecht,0344010000190097,"Winklerlaan 1001T, Utrecht",52.109288,5.139811,1
+Utrecht,0344010000190003,"Winklerlaan 1007T, Utrecht",52.110221,5.138840,3
+Utrecht,0344010000189956,"Winklerlaan 367-16, 3571KE Utrecht",52.110196,5.138823,3
+Utrecht,0344010000189957,"Winklerlaan 367-17, 3571KE Utrecht",52.110196,5.138823,3
+Utrecht,0344010000189960,"Winklerlaan 367-20, 3571KE Utrecht",52.110196,5.138823,3
+Utrecht,0344010000189962,"Winklerlaan 367-22, 3571KE Utrecht",52.110196,5.138823,3
+Utrecht,0344010000189963,"Winklerlaan 367-23, 3571KE Utrecht",52.110196,5.138823,3
+Utrecht,0344010000189967,"Winklerlaan 367-27, 3571KE Utrecht",52.110196,5.138823,3
+Utrecht,0344010000189974,"Winklerlaan 367-34, 3571KE Utrecht",52.110196,5.138823,3
+Utrecht,0344010000189977,"Winklerlaan 367-37, 3571KE Utrecht",52.110196,5.138823,3
+Utrecht,0344010000189988,"Winklerlaan 367-48, 3571KE Utrecht",52.110191,5.138822,3
+Utrecht,0344010000189989,"Winklerlaan 367-49, 3571KE Utrecht",52.110191,5.138822,3
+Utrecht,0344010000189990,"Winklerlaan 367-50, 3571KE Utrecht",52.110191,5.138822,3
+Utrecht,0344010000189991,"Winklerlaan 367-51, 3571KE Utrecht",52.110191,5.138822,3
+Utrecht,0344010000189992,"Winklerlaan 367-52, 3571KE Utrecht",52.110191,5.138822,3
+Utrecht,0344010000189993,"Winklerlaan 367-53, 3571KE Utrecht",52.110191,5.138822,3
+Utrecht,0344010000189994,"Winklerlaan 367-54, 3571KE Utrecht",52.110196,5.138823,3
+Utrecht,0344010000189995,"Winklerlaan 367-55, 3571KE Utrecht",52.110191,5.138822,3
+Utrecht,0344010000190000,"Winklerlaan 367-60, 3571KE Utrecht",52.110196,5.138823,3
+Utrecht,0344010000190002,"Winklerlaan 367-62, 3571KE Utrecht",52.110196,5.138823,3
+Utrecht,0344010000030945,"Zonnehof 3, 3581MZ Utrecht",52.085261,5.134728,2
+Utrecht,0344010000003353,"Zonstraat 100, 3581MV Utrecht",52.085090,5.135076,2
+Utrecht,0344010000182823,"Zonstraat 100A, 3581MV Utrecht",52.085090,5.135076,2
+Utrecht,0344010000182825,"Zonstraat 100B, 3581MV Utrecht",52.085090,5.135076,2
+Utrecht,0344010000079474,"Zonstraat 102, 3581MV Utrecht",52.085088,5.135097,2
+Utrecht,0344010000079475,"Zonstraat 102A, 3581MV Utrecht",52.085088,5.135097,2
+Utrecht,0344010000134910,"Zonstraat 102B, 3581MV Utrecht",52.085088,5.135097,2
+Utrecht,0344010000128478,"Zonstraat 102C, 3581MV Utrecht",52.085088,5.135097,2
+Utrecht,0344010000003356,"Zonstraat 102D, 3581MV Utrecht",52.085088,5.135097,2
+Utrecht,0344010000003357,"Zonstraat 102E, 3581MV Utrecht",52.085088,5.135097,2
+Utrecht,0344010000153958,"Zonstraat 104, 3581MV Utrecht",52.085087,5.135125,2
+Utrecht,0344010000079476,"Zonstraat 106, 3581MV Utrecht",52.085080,5.135185,2
+Utrecht,0344010000079477,"Zonstraat 108, 3581MV Utrecht",52.085073,5.135249,2
+Utrecht,0344010000079478,"Zonstraat 110, 3581MX Utrecht",52.085065,5.135309,2
+Utrecht,0344010000153959,"Zonstraat 112, 3581MX Utrecht",52.085058,5.135374,2
+Utrecht,0344010000031109,"Zonstraat 78, 3581MV Utrecht",52.085159,5.134700,2
+Utrecht,0344010000031110,"Zonstraat 80, 3581MV Utrecht",52.085156,5.134721,2
+Utrecht,0344010000031111,"Zonstraat 82, 3581MV Utrecht",52.085130,5.134784,2
