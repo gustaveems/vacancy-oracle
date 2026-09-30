@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
+<title>VacancyOracle · Label Studio</title>
+<style>
+  :root{--bg:#0d0f14;--card:#161a23;--line:#242b3a;--text:#e8eaf0;--muted:#8b94a7;--red:#e60012;--green:#22c55e;--amber:#f59e0b;--blue:#3b82f6}
+  *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 -apple-system,'Segoe UI',Roboto,sans-serif}
+  header{position:sticky;top:0;z-index:9;display:flex;gap:16px;align-items:center;padding:10px 16px;background:rgba(13,15,20,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);flex-wrap:wrap}
+  h1{font-size:14px;margin:0;letter-spacing:.08em}
+  .prog{flex:1;min-width:160px;max-width:320px}
+  .bar{height:10px;border-radius:6px;background:#222a3a;overflow:hidden;margin-top:3px}
+  .bar i{display:block;height:100%;background:linear-gradient(90deg,var(--blue),var(--green));width:0%;transition:width .25s}
+  .stat{font-size:12px;color:var(--muted)}.stat b{color:var(--text)}
+  select,button{background:var(--card);border:1px solid var(--line);color:var(--text);border-radius:8px;padding:8px 12px;font-size:13px;cursor:pointer}
+  button:hover{border-color:var(--blue)}
+  main{padding:14px;max-width:1500px;margin:0 auto}
+  .row{display:grid;grid-template-columns:300px 1fr;gap:14px;padding:12px;border:1px solid var(--line);border-radius:12px;margin-bottom:12px;background:var(--card)}
+  .row.sel{outline:3px solid var(--blue)}
+  .addr .city{font-size:11px;letter-spacing:.14em;color:var(--muted);text-transform:uppercase}
+  .addr .street{font-size:17px;font-weight:700;margin:6px 0}
+  .keys{display:flex;gap:8px;margin-top:10px}
+  .keys div{flex:1;text-align:center;font-weight:800;font-size:13px;padding:14px 4px;border-radius:10px;cursor:pointer;user-select:none;transition:transform .12s}
+  .keys div:active{transform:scale(.96)}
+  .k1{background:var(--red);color:#fff}.k2{background:var(--green);color:#062010}.k3{background:var(--amber);color:#241a00}
+  .ext{font-size:12px;color:var(--blue);text-decoration:none;display:inline-block;margin-top:8px}
+  .sv{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+  .sv img{width:100%;aspect-ratio:4/3;border-radius:8px;object-fit:cover;background:#0a0c10;border:1px solid var(--line)}
+  .done{margin-top:30px;text-align:center;color:var(--muted);font-size:14px}
+  .done b{color:var(--green)}
+  kbd{background:#000;border:1px solid var(--line);border-radius:4px;padding:1px 7px;font-size:12px}
+  .undo{font-size:12px;color:var(--muted)}
+</style></head><body>
+<header>
+  <h1>ORACLE LABEL STUDIO</h1>
+  <div class="prog"><span class="stat"><b id="nDone">0</b>/<span id="nTotal">0</span> · <span id="pct">0%</span></span><div class="bar"><i id="barFill"></i></div></div>
+  <select id="city"><option value="">all cities</option></select>
+  <select id="mode"><option value="hide">unlabeled first</option><option value="all">show everything</option></select>
+  <button id="exp">⬇ SAVE MY LABELS</button>
+  <span class="undo">progress saves itself · <kbd>↑</kbd><kbd>↓</kbd> move · <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd> label · <kbd>⌫</kbd> undo</span>
+</header>
+<main id="list"></main>
+<script>
+const CANDIDATES = __ROWS__;
+const KEY = "__KEY__";
+const LS = "vo_labels_v2";
+let labels = JSON.parse(localStorage.getItem(LS) || "{}");
+let sel = 0;
+const $ = (s) => document.querySelector(s);
+const N = { "1": "VACANT", "2": "OCCUPIED", "3": "UNCLEAR" };
+const HEADS = [0, 90, 180, 270];
+
+function sv(r, h) { return `https://maps.googleapis.com/maps/api/streetview?size=640x480&location=${r.lat},${r.lng}&heading=${h}&pitch=6&key=${KEY}`; }
+function save() { localStorage.setItem(LS, JSON.stringify(labels)); }
+function visible() {
+  const c = $("#city").value, hide = $("#mode").value === "hide";
+  return CANDIDATES.filter(r => (!c || r.city === c) && (!hide || !labels[r.pdok]));
+}
+function render() {
+  const vis = visible();
+  if (sel >= vis.length) sel = vis.length - 1;
+  const total = CANDIDATES.length, done = Object.keys(labels).length;
+  $("#nDone").textContent = done; $("#nTotal").textContent = total;
+  $("#pct").textContent = Math.round(done / total * 100) + "%"; $("#barFill").style.width = (done / total * 100) + "%";
+  const r = vis[sel];
+  if (!r) { $("#list").innerHTML = `<div class="done"><b>🏁 That's every candidate in this filter!</b><br>Press ⬇ SAVE MY LABELS (even if already pressed before — it just updates your file), then send Gustave the downloads/labels.csv.<br><br><span class="stat">tip: switch city filter or “show everything” to keep going</span></div>`; return; }
+  $("#list").innerHTML = vis.slice(sel, sel + 3).map((row, off) => `
+    <div class="row ${off === 0 ? "sel" : ""}">
+      <div class="addr">
+        <div class="city">${row.city} ${labels[row.pdok] ? `· <b style="color:${{"1":"var(--red)","2":"var(--green)","3":"var(--amber)"}[labels[row.pdok]]}">${N[labels[row.pdok]]}</b>` : ""}</div>
+        <div class="street">${row.addr}</div>
+        <div class="keys">
+          <div class="k1" data-k="1">1 · VACANT</div>
+          <div class="k2" data-k="2">2 · OCCUPIED</div>
+          <div class="k3" data-k="3">3 · UNCLEAR</div>
+        </div>
+        <a class="ext" target="_blank" rel="noopener" href="https://www.google.com/maps/@?api=1&map_action=pano&viewpoint=${row.lat},${row.lng}">need 360°? open interactive Street View ↗</a>
+      </div>
+      <div class="sv">${HEADS.map(h => `<img loading="${off === 0 ? "eager" : "lazy"}" src="${sv(row, h)}" onerror="this.style.opacity=.15" alt="${row.city} ${h}°">`).join("")}</div>
+    </div>`).join("");
+}
+function label(k) {
+  const vis = visible(); const r = vis[sel]; if (!r) return;
+  labels[r.pdok] = k; save();
+  sel = Math.min(sel + 1, vis.length);
+  render(); window.scrollTo(0, 0);
+}
+function undo() {
+  const vis = visible();
+  // remove most recent label overall
+  const entries = Object.entries(labels);
+  if (!entries.length) return;
+  // prefer undoing the current/last candidate if it was labeled
+  const all = CANDIDATES.filter(r => labels[r.pdok]);
+  const last = all[all.length - 1];
+  if (last) { delete labels[last.pdok]; save(); render(); }
+}
+document.addEventListener("click", (e) => { const k = e.target.closest("[data-k]"); if (k) label(k.dataset.k); });
+document.addEventListener("keydown", (e) => {
+  if (["1","2","3"].includes(e.key)) label(e.key);
+  else if (e.key === "ArrowDown") { sel = Math.min(sel + 1, visible().length - 1); render(); }
+  else if (e.key === "ArrowUp") { sel = Math.max(sel - 1, 0); render(); }
+  else if (e.key === "Backspace" || e.key === "Delete") { e.preventDefault(); undo(); }
+});
+$("#city").innerHTML += [...new Set(CANDIDATES.map(r => r.city))].map(c => `<option>${c}</option>`).join("");
+$("#city").onchange = () => { sel = 0; render(); }; $("#mode").onchange = () => { sel = 0; render(); };
+$("#exp").onclick = () => {
+  const head = "city,pdok_vbo,address,lat,lng,label";
+  const lines = CANDIDATES.filter(r => labels[r.pdok]).map(r => [r.city, r.pdok, `"${r.addr}"`, r.lat, r.lng, labels[r.pdok]].join(","));
+  const a = document.createElement("a");
+  a.href = URL.createObjectURL(new Blob([[head, ...lines].join("\n")], { type: "text/csv" }));
+  a.download = "labels.csv"; a.click();
+};
+render();
+</script></body></html>
