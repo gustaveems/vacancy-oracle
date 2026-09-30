@@ -34,7 +34,7 @@
   <h1>ORACLE LABEL STUDIO</h1>
   <div class="prog"><span class="stat"><b id="nDone">0</b>/<span id="nTotal">0</span> · <span id="pct">0%</span></span><div class="bar"><i id="barFill"></i></div></div>
   <select id="city"><option value="">all cities</option></select>
-  <select id="mode"><option value="hide">unlabeled first</option><option value="all">show everything</option></select>
+  <select id="mode"><option value="hide">unlabeled first</option><option value="all">show everything</option><option value="unclear">re-label unclear only</option></select>
   <button id="exp">⬇ SAVE MY LABELS</button>
   <span class="undo">progress saves itself · <kbd>↑</kbd><kbd>↓</kbd> move · <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd> label · <kbd>⌫</kbd> undo</span>
 </header>
@@ -52,8 +52,12 @@ const HEADS = [0, 90, 180, 270];
 function sv(r, h) { return `https://maps.googleapis.com/maps/api/streetview?size=640x480&location=${r.lat},${r.lng}&heading=${h}&pitch=6&key=${KEY}`; }
 function save() { localStorage.setItem(LS, JSON.stringify(labels)); }
 function visible() {
-  const c = $("#city").value, hide = $("#mode").value === "hide";
-  return CANDIDATES.filter(r => (!c || r.city === c) && (!hide || !labels[r.pdok]));
+  const c = $("#city").value, m = $("#mode").value, hide = m === "hide";
+  return CANDIDATES.filter(r => {
+    if (c && r.city !== c) return false;
+    if (m === "unclear") return labels[r.pdok] === "3";
+    return hide ? !labels[r.pdok] : true;
+  });
 }
 function render() {
   const vis = visible();

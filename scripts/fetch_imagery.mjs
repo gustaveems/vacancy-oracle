@@ -46,11 +46,13 @@ if (!existsSync(manifestPath)) manifest.forEach((l) => {});
 
 let done = 0, skipped = 0, denied = 0;
 const t0 = Date.now();
+const jobs = [];
 for (const r of rows) {
   for (const h of HEADINGS) {
     const file = `${r.pdok}_${h}.jpg`;
     const key = `${r.city},${r.pdok},${h},data/imagery/${file}`;
     if (manifest.has(key) || existsSync(resolve(OUT, file))) { skipped++; continue; }
+    jobs.push(async () => {
     const url =
       `https://maps.googleapis.com/maps/api/streetview?size=${SIZE}&location=${r.lat},${r.lng}` +
       `&heading=${h}&pitch=6&key=${KEY}`;
@@ -67,12 +69,22 @@ for (const r of rows) {
         console.log(`${done} fetched (${denied} denied) — ${((Date.now() - t0) / 1000).toFixed(0)}s, ${rows.length * 4} total`);
       }
     } catch (e) {
-      manifest.add(`${r.city},${r.pdose ?? r.pdok},${h},,error`);
+      manifest.add(`${r.city},${r.pdok},${h},,error`);
       denied++;
     }
-    await sleep(70);
+    });
   }
 }
+const CONC = 8;
+let cursor = 0;
+async function worker() {
+  while (cursor < jobs.length) {
+    const job = jobs[cursor++];
+    await job();
+    await sleep(40);
+  }
+}
+await Promise.all(Array.from({ length: CONC }, worker));
 writeFileSync(manifestPath, [...manifest].join("\n"));
 console.log(`Fetched ${done}, skipped ${skipped}, denied ${denied} → data/imagery/ + manifest.csv`);
 if (denied) console.log("⚠ denied = Street View Static API not enabled/billed on this key — enable 'Maps Street View Static API' in console.");

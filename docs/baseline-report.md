@@ -9,7 +9,7 @@
 
 1. **Majority class** — PR-AUC = prevalence = **0.024**
 2. **Street-prior rules-lite** — PR-AUC **0.020** · p@r.5 0.02 · p@r.7 0.02 · @p≥90%: recall 0.00 (TP 0 / FP 0 / FN 13 / TN 526)
-3. **ParkScan rules engine** — pending `data/scores_rules_full.json` (needs image-evidence frontage context; arrives with Phase 2 active learning).
+3. **ParkScan rules engine (full)** — PR-AUC **0.032** · p@r.5 0.02 · p@r.7 0.02 · @p≥90%: recall 0.00 (TP 0 / FP 0 / FN 13 / TN 526)
 
 ## Decision framing
 FP = unwanted legal outreach mail. Demo threshold chosen at precision ≥ 90%; recall shown per baseline.

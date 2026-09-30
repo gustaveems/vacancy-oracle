@@ -176,6 +176,12 @@ def main():
         md.append("3. **ParkScan rules engine** — pending `data/scores_rules_full.json` "
                   "(needs image-evidence frontage context; arrives with Phase 2 active learning).")
 
+    zs = DATA / "vision_zeroshot_scores.json"
+    if zs.exists():
+        zmap = json.loads(zs.read_text())
+        m_zs = evaluate(y, [zmap.get(r["pdok_vbo"], prev) for r in use])
+        md.append(f"4. **SigLIP zero-shot vision** (local, no training) — {fmt(m_zs)}")
+
     md.append("\n## Decision framing\nFP = unwanted legal outreach mail. Demo threshold chosen at "
               f"precision ≥ {PRECISION_TARGET:.0%}; recall shown per baseline.\n")
     md.append("_Protocol frozen in `docs/eval-protocol.md` before model fitting._\n")
