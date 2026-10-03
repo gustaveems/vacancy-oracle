@@ -44,7 +44,9 @@ cd ~/Projects/vacancy-oracle && python3 -m http.server 8000
 
 - [x] Phase 0 — candidates + label studio
 - [x] Phase 1 — first real baseline (docs/baseline-report.md): 701 labels, **vacancy prevalence 2.4%** in downtown commercial cores, street-prior PR-AUC 0.020 — weaker than majority. Finding: signal density, not label volume, is the bottleneck → pool expanded with 349 industrial-belt candidates (haven/kade/terrain seeds).
-- [ ] Phase 2 — image embeddings (API/Colab) + probe, active-learning queue
+- [x] Phase 2 — local SigLIP zero-shot over 4,071 street views: PR-AUC 0.048 vs rules 0.032 vs majority 0.024 (`docs/phase2-findings.md`)
+- [ ] Phase 2b — active-learning batch: label the top-100 model picks (`data/active_batch.csv`, studio "🎯 model picks")
+- [ ] Phase 3 — supervised probe + geographic holdout
 - [ ] Phase 3 — fused model + geographic holdout + calibration
 - [ ] Phase 4 — ParkScan demo upgrade (Rules v1 vs Oracle v2 toggle) + write-up
 

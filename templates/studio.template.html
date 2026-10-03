@@ -3,7 +3,7 @@
 <meta charset="utf-8"/><meta name="viewport" content="width=device-width,initial-scale=1"/>
 <title>VacancyOracle · Label Studio</title>
 <style>
-  :root{--bg:#0d0f14;--card:#161a23;--line:#242b3a;--text:#e8eaf0;--muted:#8b94a7;--red:#e60012;--green:#22c55e;--amber:#f59e0b;--blue:#3b82f6}
+  :root{--bg:#0d0f14;--card:#161a23;--line:#242b3a;--text:#e8eaf0;--muted:#8b94a7;--red:#e60012;--green:#22c55e;--amber:#f59e0b;--blue:#3b82f6;--cyan:#33e0ff}
   *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 -apple-system,'Segoe UI',Roboto,sans-serif}
   header{position:sticky;top:0;z-index:9;display:flex;gap:16px;align-items:center;padding:10px 16px;background:rgba(13,15,20,.92);backdrop-filter:blur(6px);border-bottom:1px solid var(--line);flex-wrap:wrap}
   h1{font-size:14px;margin:0;letter-spacing:.08em}
@@ -34,13 +34,15 @@
   <h1>ORACLE LABEL STUDIO</h1>
   <div class="prog"><span class="stat"><b id="nDone">0</b>/<span id="nTotal">0</span> · <span id="pct">0%</span></span><div class="bar"><i id="barFill"></i></div></div>
   <select id="city"><option value="">all cities</option></select>
-  <select id="mode"><option value="hide">unlabeled first</option><option value="all">show everything</option><option value="unclear">re-label unclear only</option></select>
+  <select id="mode"><option value="hide">unlabeled first</option><option value="all">show everything</option><option value="unclear">re-label unclear only</option><option value="picks">🎯 model picks (top 100)</option></select>
   <button id="exp">⬇ SAVE MY LABELS</button>
   <span class="undo">progress saves itself · <kbd>↑</kbd><kbd>↓</kbd> move · <kbd>1</kbd><kbd>2</kbd><kbd>3</kbd> label · <kbd>⌫</kbd> undo</span>
 </header>
 <main id="list"></main>
 <script>
 const CANDIDATES = __ROWS__;
+const VSCORE = __VSCORE__;
+const ACTIVE = __ACTIVE__;
 const KEY = "__KEY__";
 const LS = "vo_labels_v2";
 let labels = JSON.parse(localStorage.getItem(LS) || "{}");
@@ -53,11 +55,15 @@ function sv(r, h) { return `https://maps.googleapis.com/maps/api/streetview?size
 function save() { localStorage.setItem(LS, JSON.stringify(labels)); }
 function visible() {
   const c = $("#city").value, m = $("#mode").value, hide = m === "hide";
-  return CANDIDATES.filter(r => {
+  const order = (r) => { const i = ACTIVE.indexOf(r.pdok); return i < 0 ? 9999 : i; };
+  let out = CANDIDATES.filter(r => {
     if (c && r.city !== c) return false;
     if (m === "unclear") return labels[r.pdok] === "3";
+    if (m === "picks") return !labels[r.pdok] && ACTIVE.includes(r.pdok);
     return hide ? !labels[r.pdok] : true;
   });
+  if (m === "picks") out = out.slice().sort((a, b) => order(a) - order(b));
+  return out;
 }
 function render() {
   const vis = visible();
@@ -70,7 +76,7 @@ function render() {
   $("#list").innerHTML = vis.slice(sel, sel + 3).map((row, off) => `
     <div class="row ${off === 0 ? "sel" : ""}">
       <div class="addr">
-        <div class="city">${row.city} ${labels[row.pdok] ? `· <b style="color:${{"1":"var(--red)","2":"var(--green)","3":"var(--amber)"}[labels[row.pdok]]}">${N[labels[row.pdok]]}</b>` : ""}</div>
+        <div class="city">${row.city} ${!labels[row.pdok] && VSCORE[row.pdok] != null ? `<span style="color:var(--cyan);letter-spacing:.1em">· model ${Math.round(VSCORE[row.pdok]*100)}%</span>` : ""} ${labels[row.pdok] ? `· <b style="color:${{"1":"var(--red)","2":"var(--green)","3":"var(--amber)"}[labels[row.pdok]]}">${N[labels[row.pdok]]}</b>` : ""}</div>
         <div class="street">${row.addr}</div>
         <div class="keys">
           <div class="k1" data-k="1">1 · VACANT</div>

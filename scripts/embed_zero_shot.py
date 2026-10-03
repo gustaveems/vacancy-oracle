@@ -12,7 +12,7 @@ Outputs:
 
 Run automatically by scripts/run_phase2.sh after imagery fetch, or manually.
 """
-import csv, json, os, glob
+import csv, json, os, glob, time
 from pathlib import Path
 import numpy as np
 import torch
@@ -37,10 +37,22 @@ ACTIVE = [
     "a building in active commercial use",
 ]
 
+def done_ids():
+    """pdok ids fully embedded (4 views) in previous runs — for resume."""
+    if not (ROOT / "data/vision_zeroshot.csv").exists(): return {}
+    counts = {}
+    for r in csv.DictReader(open(ROOT / "data/vision_zeroshot.csv")):
+        counts[r["pdok_vbo"]] = counts.get(r["pdok_vbo"], 0) + 1
+    return {k for k, v in counts.items() if v >= 4}
+
+
 def main():
-    files = sorted(glob.glob(str(IMG / "*.jpg")))
+    skip = done_ids()
+    files = [f for f in sorted(glob.glob(str(IMG / "*.jpg")))
+             if Path(f).stem.rsplit("_", 1)[0] not in skip]
     if not files:
-        print("no imagery yet"); return
+        print("nothing to embed — all done"); return
+    print(f"{len(files)} images to embed, skipping {len(skip)} complete buildings", flush=True)
     print(f"{len(files)} images, loading {MODEL}…")
     proc = AutoProcessor.from_pretrained(MODEL)
     model = AutoModel.from_pretrained(MODEL).eval()
@@ -72,17 +84,22 @@ def main():
         if len(buf) >= 48: flush()
     flush()
 
-    with open(ROOT / "data/vision_zeroshot.csv", "w", newline="") as fh:
-        w = csv.DictWriter(fh, fieldnames=rows[0].keys()); w.writeheader(); w.writerows(rows)
+    append = (ROOT / "data/vision_zeroshot.csv").exists()
+    mode = "a" if append else "w"
+    with open(ROOT / "data/vision_zeroshot.csv", mode, newline="") as fh:
+        w = csv.DictWriter(fh, fieldnames=["pdok_vbo", "view", "vacant_sim", "active_sim", "margin"])
+        if not append: w.writeheader()
+        w.writerows(rows)
 
     per = {}
-    for r in rows:
-        per.setdefault(r["pdok_vbo"], []).append(r["margin"])
+    allrows = list(csv.DictReader(open(ROOT / "data/vision_zeroshot.csv")))
+    for r in allrows:
+        per.setdefault(r["pdok_vbo"], []).append(float(r["margin"]))
     margins = np.array([max(v) for v in per.values()])
     lo, hi = np.percentile(margins, [2, 98])
     scores = {k: float(np.clip((max(v) - lo) / (hi - lo), 0, 1)) for k, v in per.items()}
     (ROOT / "data/vision_zeroshot_scores.json").write_text(json.dumps(scores))
-    print(f"done: {len(scores)} buildings scored | margin range {margins.min():.3f}..{margins.max():.3f}")
+    print(f"done this pass; {len(scores)} buildings scored overall | margins {margins.min():.3f}..{margins.max():.3f}", flush=True)
 
 if __name__ == "__main__":
     main()
