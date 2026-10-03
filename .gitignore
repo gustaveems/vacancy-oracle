@@ -2,3 +2,4 @@
 node_modules/
 data/config.json
 data/imagery/
+data/embeddings.npz

@@ -19,7 +19,7 @@ import torch
 from PIL import Image
 from transformers import AutoModel, AutoProcessor
 
-torch.set_num_threads(6)
+torch.set_num_threads(4)
 ROOT = Path(__file__).resolve().parent.parent
 IMG = ROOT / "data" / "imagery"
 MODEL = "google/siglip-base-patch16-224"
@@ -63,6 +63,7 @@ def main():
         tfeat = tfeat / tfeat.norm(dim=-1, keepdim=True)
 
     rows, buf, buf_files = [], [], []
+    ids, feats = [], []
     def flush():
         if not buf: return
         x = proc(images=[Image.open(f).convert("RGB") for f in buf], return_tensors="pt")
@@ -70,6 +71,8 @@ def main():
             im = model.get_image_features(**x)
         im = im / im.norm(dim=-1, keepdim=True)
         sims = im @ tfeat.T
+        ids.extend(Path(f).stem for f in buf_files)
+        feats.append(im.numpy())
         vac = sims[:, :len(VACANT)].mean(1); act = sims[:, len(VACANT):].mean(1)
         for f, v, a in zip(buf_files, vac.numpy(), act.numpy()):
             name = Path(f).stem
@@ -81,9 +84,10 @@ def main():
 
     for f in files:
         buf.append(Image.open(f).size and f); buf_files.append(f)
-        if len(buf) >= 48: flush()
+        if len(buf) >= 16: flush()
     flush()
 
+    feats_cat = np.concatenate(feats, axis=0).astype(np.float16)
     append = (ROOT / "data/vision_zeroshot.csv").exists()
     mode = "a" if append else "w"
     with open(ROOT / "data/vision_zeroshot.csv", mode, newline="") as fh:
@@ -91,6 +95,8 @@ def main():
         if not append: w.writeheader()
         w.writerows(rows)
 
+    np.savez_compressed(ROOT / "data/embeddings.npz", ids=np.array(ids), feats=feats_cat)
+    print(f"embeddings saved: {len(ids)}×{feats_cat.shape[1]}d → data/embeddings.npz", flush=True)
     per = {}
     allrows = list(csv.DictReader(open(ROOT / "data/vision_zeroshot.csv")))
     for r in allrows:
