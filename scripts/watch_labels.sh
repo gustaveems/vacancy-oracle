@@ -15,7 +15,9 @@ refresh() {
   python3 scripts/probe_supervised.py >/dev/null 2>&1
   python3 scripts/baseline3_gbm.py >/dev/null 2>&1
   python3 scripts/baseline5_fusion.py >/dev/null 2>&1
-  git add -A 2>/dev/null && git commit -qm "Refresh: new label export — scores, reports, active batch, studio, phase3, baselines 3+5" 2>/dev/null && git push -q origin master:main 2>/dev/null
+  python3 scripts/oracle_score.py >/dev/null 2>&1
+  node scripts/make_demo.mjs >/dev/null 2>&1
+  git add -A 2>/dev/null && git commit -qm "Refresh: new label export — scores, reports, active batch, studio, phase3, baselines 3+5, demo" 2>/dev/null && git push -q origin master:main 2>/dev/null
   echo "$(date +%H:%M) refreshed from $(basename "$1")" >> /tmp/watch.log
 }
 

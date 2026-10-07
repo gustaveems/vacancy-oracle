@@ -21,10 +21,12 @@ VacancyOracle answers with data:
 ## Layout
 
 ```
-scripts/collect-candidates.mjs   PDOK reverse-geocode → data/candidates.csv (701 addresses)
+scripts/collect-candidates.mjs   PDOK reverse-geocode → data/candidates.csv (1,050 addresses)
+scripts/fetch_registry.mjs       batched WFS POST → data/registry_features.csv (BAG features)
+scripts/watch_labels.sh          self-refreshing pipeline: new label export → all scores/models/docs/demo
 label/index.html                 keyboard-driven label studio (localStorage → export CSV)
-data/candidates.csv              Phase-0 candidate list (Amsterdam / Rotterdam / Utrecht)
 docs/eval-protocol.md            frozen evaluation rules — written before any model is fit
+docs/phase4-writeup.md           final write-up: findings, declared limitations, what's next
 ```
 
 ## Labeling (Phase 0 — you)
@@ -49,6 +51,19 @@ cd ~/Projects/vacancy-oracle && python3 -m http.server 8000
 - [x] Phase 3 — supervised probe + geographic holdout (`docs/phase3-preview.md`): in-city 5-fold CV PR-AUC **0.390** vs zero-shot 0.082; geographic transfer flips — probe **0.024** vs zero-shot **0.126**, because only 5 Amsterdam positives exist to train on. Zero-shot owns the geographic headline for now.
 - [x] Baseline 3 — registry-only GBM (`docs/baseline3-registry.md`): in-city CV PR-AUC **0.407** — parity with the image probe and far above zero-shot: BAG metadata alone carries real in-city signal. Geographic holdout **0.046**, same 5-Amsterdam-positives wall.
 - [x] Baseline 5 — fused model + calibration (`docs/baseline5-fusion.md`): in-city CV PR-AUC **0.468** — family best, but the ablation plateau is reported honestly: image-only 0.481 / registry-only 0.407, all within noise at 26 positives. Geographic holdout **0.064** (best supervised, still under training-free zero-shot 0.126); rotated fold **0.023** — the geographic wall is symmetric, more training-side positives don't buy transfer. ≥90%-precision demo threshold exists but catches 1/26 vacancies (vacuous until positives grow). Precision@recall 0.5/0.7 = 0.48/0.34; Brier 0.024 vs 0.030 no-skill.
-- [ ] Phase 4 — ParkScan demo upgrade (Rules v1 vs Oracle v2 toggle) + write-up — more Amsterdam positives remain the binding constraint on every geographic number above
+- [x] Phase 4 — demo + write-up: Rules v1 vs Oracle v2 toggle over the 1,050 labeled candidates with street views (`scripts/make_demo.mjs` → `~/Desktop/VacancyOracle Demo.html`, in-sample caveat printed on the page; rank agreement ρ = 0.05 — the systems disagree almost entirely). Final write-up: `docs/phase4-writeup.md`. More Amsterdam positives remain the binding constraint on every geographic number above.
+
+## Demo (Phase 4)
+
+```bash
+python3 scripts/oracle_score.py && node scripts/make_demo.mjs
+# → ~/Desktop/VacancyOracle Demo.html
+```
+
+Toggle ranking between ParkScan **Rules v1** and the fused **Oracle v2**,
+filter by city, flip through street views. Demo ranks come from the model
+refit on all usable labels (in-sample — the page says so in its own banner);
+held-out metrics live in `docs/`. Imagery is referenced by local `file://`
+path; no API keys are ever embedded.
 
 Part of the Gustave Soulas portfolio · successor to [parkscan-nl](https://github.com/gustaveems/parkscan-nl).
