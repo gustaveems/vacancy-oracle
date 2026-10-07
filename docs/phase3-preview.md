@@ -1,19 +1,22 @@
-# Phase 3 preview — supervised probe over embeddings
+# Phase 3 — supervised probe over embeddings
 
-⚠ **n_pos = 13.** Every number below is directional, not conclusive — that's the
-sparsity wall documented in Phase 1; active-labeled industrial picks are the fix.
+⚠ **n_pos = 26.** Still sparse — but doubled by the labeled active batch
+(all 13 new positives landed inside the model's top-100 picks: 3.5× enrichment).
 
 | Setup | Model | PR-AUC |
 |---|---|---|
-| **A. Geographic holdout** (train Amsterdam → test Rotterdam+Utrecht, n=8 pos) | linear probe on SigLIP feats | **0.018** |
-|  | zero-shot SigLIP margin | 0.071 |
-| **B. Stratified 5-fold CV** (all 539, n=13 pos) | linear probe | **0.404** |
+| **A. Geographic holdout** (train Amsterdam → test Rotterdam+Utrecht, n=523, 21 pos) | linear probe on SigLIP feats | **0.024** |
+|  | zero-shot SigLIP margin | 0.126 |
+| **B. Stratified 5-fold CV** (all 843, 26 pos) | linear probe | **0.390** |
 
-Prevalence floor: 0.024.
+Prevalence floor: 0.031.
 
-**Read:** the probe learns transferable vacancy signal (CV beats zero-shot
-substantially); geographic transfer at n=8 positives is coin-flip territory and
-awaits the active batch. Next: label `data/active_batch.csv` top-100 model
-picks → re-run everything (the label watcher already automates the refresh).
+**Read:** in-city the probe wins (CV 0.390 vs zero-shot full-set
+0.082); geographic transfer flips it — with only 5
+Amsterdam positives to train on, the probe collapses while the training-free
+zero-shot margin holds. Positives by city: Amsterdam 5 · Rotterdam 5 · Utrecht 16. The geographic
+headline claim still belongs to zero-shot; the fix is more Amsterdam positives
+(fresh candidate collection) plus the fused model with registry features per
+`docs/eval-protocol.md` (baselines 3–5).
 
 _Frozen protocol unchanged: metrics only on held-out splits._

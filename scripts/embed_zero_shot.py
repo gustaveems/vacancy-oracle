@@ -38,21 +38,18 @@ ACTIVE = [
 ]
 
 def done_ids():
-    """pdok ids fully embedded (4 views) in previous runs — for resume."""
-    if not (ROOT / "data/vision_zeroshot.csv").exists(): return {}
-    counts = {}
-    for r in csv.DictReader(open(ROOT / "data/vision_zeroshot.csv")):
-        counts[r["pdok_vbo"]] = counts.get(r["pdok_vbo"], 0) + 1
-    return {k for k, v in counts.items() if v >= 4}
+    """(pdok, view) pairs already scored in previous runs — for resume."""
+    if not (ROOT / "data/vision_zeroshot.csv").exists(): return set()
+    return {(r["pdok_vbo"], r["view"]) for r in csv.DictReader(open(ROOT / "data/vision_zeroshot.csv"))}
 
 
 def main():
     skip = done_ids()
     files = [f for f in sorted(glob.glob(str(IMG / "*.jpg")))
-             if Path(f).stem.rsplit("_", 1)[0] not in skip]
+             if tuple(Path(f).stem.rsplit("_", 1)) not in skip]
     if not files:
         print("nothing to embed — all done"); return
-    print(f"{len(files)} images to embed, skipping {len(skip)} complete buildings", flush=True)
+    print(f"{len(files)} images to embed, skipping {len(skip)} scored views", flush=True)
     print(f"{len(files)} images, loading {MODEL}…")
     proc = AutoProcessor.from_pretrained(MODEL)
     model = AutoModel.from_pretrained(MODEL).eval()
@@ -88,6 +85,15 @@ def main():
     flush()
 
     feats_cat = np.concatenate(feats, axis=0).astype(np.float16)
+    # merge with cached embeddings so a resumed run never clobbers them
+    npz_path = ROOT / "data/embeddings.npz"
+    if npz_path.exists():
+        old = np.load(npz_path, allow_pickle=True)
+        merged = {str(i): f for i, f in zip(old["ids"], old["feats"])}
+        for i, f in zip(ids, feats_cat):
+            merged[str(i)] = f
+        ids = list(merged.keys())
+        feats_cat = np.array(list(merged.values()), dtype=np.float16)
     append = (ROOT / "data/vision_zeroshot.csv").exists()
     mode = "a" if append else "w"
     with open(ROOT / "data/vision_zeroshot.csv", mode, newline="") as fh:
@@ -95,7 +101,7 @@ def main():
         if not append: w.writeheader()
         w.writerows(rows)
 
-    np.savez_compressed(ROOT / "data/embeddings.npz", ids=np.array(ids), feats=feats_cat)
+    np.savez_compressed(npz_path, ids=np.array(ids), feats=feats_cat)
     print(f"embeddings saved: {len(ids)}×{feats_cat.shape[1]}d → data/embeddings.npz", flush=True)
     per = {}
     allrows = list(csv.DictReader(open(ROOT / "data/vision_zeroshot.csv")))

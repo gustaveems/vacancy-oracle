@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
-"""Phase 3 preview — linear probe over cached SigLIP embeddings.
-Two evaluations (both with n_pos=13 caveats):
+"""Phase 3 — linear probe over cached SigLIP embeddings.
+Two evaluations (positives are still sparse — n_pos is printed and written into the doc):
   A. Geographic holdout: train Amsterdam → test Rotterdam+Utrecht (protocol spec)
   B. Stratified 5-fold CV over all labeled buildings (tighter CI, not the headline)
 Outputs docs/phase3-preview.md + figure."""
@@ -42,7 +42,8 @@ def probe(Xtr, ytr, Xte):
     return m.decision_function(Xn)
 
 tr = city == "Amsterdam"; te = ~tr
-print(f"labeled embedded: {len(y)} (train A'dam {tr.sum()}, pos {y[tr].sum()} | test R+U {te.sum()}, pos {y[te].sum()})")
+n_pos = int(y.sum()); n_tot = len(y); geo_n = int(te.sum()); geo_pos = int(y[te].sum())
+print(f"labeled embedded: {n_tot} (train A'dam {tr.sum()}, pos {y[tr].sum()} | test R+U {geo_n}, pos {geo_pos})")
 p_geo = probe(X[tr], y[tr], X[te])
 zs_geo = zsc[te]
 auc_geo = pr_auc(y[te], p_geo); auc_zs_geo = pr_auc(y[te], zs_geo)
@@ -57,6 +58,9 @@ print(f"B) 5-fold CV     probe PR-AUC {auc_cv:.3f}")
 
 # figure
 import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
+auc_zs_full = pr_auc(y, zsc)
+from collections import Counter
+pos_by_city = " · ".join(f"{c} {n}" for c, n in sorted(Counter(c for c, yy in zip(city, y) if yy).items()))
 def pr(scores):
     o = np.argsort(-scores); yy = y[o]
     tp = np.cumsum(yy); fp = np.cumsum(1 - yy)
@@ -65,27 +69,30 @@ fig, ax = plt.subplots(figsize=(6.4, 4.6), dpi=150)
 R, P = pr(oof); ax.plot(R, P, color="#e60012", lw=2, label=f"probe 5-fold CV ({auc_cv:.3f})")
 R, P = pr(zs_geo.repeat(1) if False else zsc); ax.plot(R, P, color="#22c55e", lw=2, label=f"zero-shot ({pr_auc(y, zsc):.3f})")
 ax.plot([0, 1], [y.mean(), y.mean()], ls="--", color="#8b94a7", label=f"prevalence {y.mean():.3f}")
-ax.set(xlabel="recall", ylabel="precision", title="Supervised probe vs zero-shot (13 positives — noisy!)")
+ax.set(xlabel="recall", ylabel="precision", title=f"Supervised probe vs zero-shot ({n_pos} positives)")
 ax.legend(frameon=False); ax.grid(alpha=.18); plt.tight_layout()
 fig.savefig(ROOT / "docs/figures/probe_vs_zeroshot.png")
 
-md = f"""# Phase 3 preview — supervised probe over embeddings
+md = f"""# Phase 3 — supervised probe over embeddings
 
-⚠ **n_pos = 13.** Every number below is directional, not conclusive — that's the
-sparsity wall documented in Phase 1; active-labeled industrial picks are the fix.
+⚠ **n_pos = {n_pos}.** Still sparse — but doubled by the labeled active batch
+(all 13 new positives landed inside the model's top-100 picks: 3.5× enrichment).
 
 | Setup | Model | PR-AUC |
 |---|---|---|
-| **A. Geographic holdout** (train Amsterdam → test Rotterdam+Utrecht, n=8 pos) | linear probe on SigLIP feats | **{auc_geo:.3f}** |
+| **A. Geographic holdout** (train Amsterdam → test Rotterdam+Utrecht, n={geo_n}, {geo_pos} pos) | linear probe on SigLIP feats | **{auc_geo:.3f}** |
 |  | zero-shot SigLIP margin | {auc_zs_geo:.3f} |
-| **B. Stratified 5-fold CV** (all 539, n=13 pos) | linear probe | **{auc_cv:.3f}** |
+| **B. Stratified 5-fold CV** (all {n_tot}, {n_pos} pos) | linear probe | **{auc_cv:.3f}** |
 
 Prevalence floor: {y.mean():.3f}.
 
-**Read:** the probe learns transferable vacancy signal (CV beats zero-shot
-substantially); geographic transfer at n=8 positives is coin-flip territory and
-awaits the active batch. Next: label `data/active_batch.csv` top-100 model
-picks → re-run everything (the label watcher already automates the refresh).
+**Read:** in-city the probe wins (CV {auc_cv:.3f} vs zero-shot full-set
+{auc_zs_full:.3f}); geographic transfer flips it — with only {int(y[tr].sum())}
+Amsterdam positives to train on, the probe collapses while the training-free
+zero-shot margin holds. Positives by city: {pos_by_city}. The geographic
+headline claim still belongs to zero-shot; the fix is more Amsterdam positives
+(fresh candidate collection) plus the fused model with registry features per
+`docs/eval-protocol.md` (baselines 3–5).
 
 _Frozen protocol unchanged: metrics only on held-out splits._
 """

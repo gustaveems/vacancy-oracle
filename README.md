@@ -45,9 +45,9 @@ cd ~/Projects/vacancy-oracle && python3 -m http.server 8000
 - [x] Phase 0 — candidates + label studio
 - [x] Phase 1 — first real baseline (docs/baseline-report.md): 701 labels, **vacancy prevalence 2.4%** in downtown commercial cores, street-prior PR-AUC 0.020 — weaker than majority. Finding: signal density, not label volume, is the bottleneck → pool expanded with 349 industrial-belt candidates (haven/kade/terrain seeds).
 - [x] Phase 2 — local SigLIP zero-shot over 4,071 street views: PR-AUC 0.048 vs rules 0.032 vs majority 0.024 (`docs/phase2-findings.md`)
-- [ ] Phase 2b — active-learning batch: label the top-100 model picks (`data/active_batch.csv`, studio "🎯 model picks")
-- [ ] Phase 3 — supervised probe + geographic holdout
-- [ ] Phase 3 — fused model + geographic holdout + calibration
+- [x] Phase 2b — active-learning batch: top-100 model picks labeled — **1,050 labels** total; all 13 new positives landed inside the top-100 picks (3.5× enrichment over the 3.7% base rate)
+- [x] Phase 3 — supervised probe + geographic holdout (`docs/phase3-preview.md`): in-city 5-fold CV PR-AUC **0.390** vs zero-shot 0.082; geographic transfer flips — probe **0.024** vs zero-shot **0.126**, because only 5 Amsterdam positives exist to train on. Zero-shot owns the geographic headline for now.
+- [ ] Phase 3b — fused model + geographic holdout + calibration — needs BAG registry features (use, build year, area, ownership) and more Amsterdam positives
 - [ ] Phase 4 — ParkScan demo upgrade (Rules v1 vs Oracle v2 toggle) + write-up
 
 Part of the Gustave Soulas portfolio · successor to [parkscan-nl](https://github.com/gustaveems/parkscan-nl).
