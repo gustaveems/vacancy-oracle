@@ -47,6 +47,7 @@ cd ~/Projects/vacancy-oracle && python3 -m http.server 8000
 - [x] Phase 2 — local SigLIP zero-shot over 4,071 street views: PR-AUC 0.048 vs rules 0.032 vs majority 0.024 (`docs/phase2-findings.md`)
 - [x] Phase 2b — active-learning batch: top-100 model picks labeled — **1,050 labels** total; all 13 new positives landed inside the top-100 picks (3.5× enrichment over the 3.7% base rate)
 - [x] Phase 3 — supervised probe + geographic holdout (`docs/phase3-preview.md`): in-city 5-fold CV PR-AUC **0.390** vs zero-shot 0.082; geographic transfer flips — probe **0.024** vs zero-shot **0.126**, because only 5 Amsterdam positives exist to train on. Zero-shot owns the geographic headline for now.
+- [x] Baseline 3 — registry-only GBM (`docs/baseline3-registry.md`): in-city CV PR-AUC **0.407** — parity with the image probe and far above zero-shot: BAG metadata alone carries real in-city signal. Geographic holdout **0.046**, same 5-Amsterdam-positives wall.
 - [ ] Phase 3b — fused model + geographic holdout + calibration — BAG registry features fetched (`scripts/fetch_registry.mjs` → `data/registry_features.csv`, 1,046/1,050: use, area, VBO status, build year, pand status; ownership form is BRK-only and unavailable keyless, so baseline 3 runs on the BAG set); still needs more Amsterdam positives
 - [ ] Phase 4 — ParkScan demo upgrade (Rules v1 vs Oracle v2 toggle) + write-up
 
