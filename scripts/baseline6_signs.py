@@ -221,22 +221,23 @@ results["imagery_audit"] = {"buildings": audit,
 # ---- figure ----
 import matplotlib; matplotlib.use("Agg"); import matplotlib.pyplot as plt
 fig, axes = plt.subplots(1, 3, figsize=(16, 4.6), dpi=150)
-panels = [("A. Geographic holdout — test Rotterdam + Utrecht", te, 1),
-          ("A′. Rotated fold — test Amsterdam", tr, 2)]
-for ax, (title, m, j) in zip(axes[:2], panels):
-    for nm, sc, col, ls in [("sign → zero-shot (free)", score_sign_zs, "#e60012", "-"),
-                            ("sign only (free)", score_sign, "#f59e0b", "-"),
-                            ("zero-shot (free)", zs_all, "#8b94a7", "-"),
-                            ("baseline 6 fused+sign", None, "#2563eb", "--"),
-                            ("baseline 5 fused", None, "#8b5cf6", ":")]:
+# legend values come from the reported results, so figure and docs always agree
+panels = [("A. Geographic holdout — test Rotterdam + Utrecht", te, 1, "geo_test_RU", "geo"),
+          ("A′. Rotated fold — test Amsterdam", tr, 2, "rotated_test_Adam", "rotated")]
+for ax, (title, m, j, fk, bk) in zip(axes[:2], panels):
+    for nm, sc, col, ls, val in [("sign → zero-shot (free)", score_sign_zs, "#e60012", "-", free["sign_then_zeroshot"][fk]),
+                                 ("sign only (free)", score_sign, "#f59e0b", "-", free["sign_only"][fk]),
+                                 ("zero-shot (free)", zs_all, "#8b94a7", "-", free["zeroshot"][fk]),
+                                 ("baseline 6 fused+sign", None, "#2563eb", "--", b6[bk]),
+                                 ("baseline 5 fused", None, "#8b5cf6", ":", b5[bk])]:
         s = sc[m] if sc is not None else (b6_s if nm.startswith("baseline 6") else b5_s)[j]
-        R, P = curve(y[m], s); ax.plot(R, P, color=col, ls=ls, lw=2, label=f"{nm} ({pr_auc(y[m], s):.3f})")
+        R, P = curve(y[m], s); ax.plot(R, P, color=col, ls=ls, lw=2, label=f"{nm} ({val['pr_auc']:.3f})")
     ax.axhline(y[m].mean(), ls=":", c="#c0c4cc", lw=1)
     ax.set(xlabel="recall", ylabel="precision", title=title); ax.legend(frameon=False, fontsize=7.5); ax.grid(alpha=.18)
 ax = axes[2]
-for nm, s, col in [("baseline 6 fused+sign", b6_s[0], "#2563eb"), ("baseline 5 fused", b5_s[0], "#8b5cf6"),
-                   ("sign → zero-shot (free)", score_sign_zs, "#e60012")]:
-    R, P = curve(y, s); ax.plot(R, P, color=col, lw=2, label=f"{nm} ({pr_auc(y, s):.3f})")
+for nm, s, col, val in [("baseline 6 fused+sign", b6_s[0], "#2563eb", b6["cv"]), ("baseline 5 fused", b5_s[0], "#8b5cf6", b5["cv"]),
+                        ("sign → zero-shot (free)", score_sign_zs, "#e60012", free["sign_then_zeroshot"]["all_labels"])]:
+    R, P = curve(y, s); ax.plot(R, P, color=col, lw=2, label=f"{nm} ({val['pr_auc']:.3f})")
 ax.axhline(y.mean(), ls=":", c="#c0c4cc", lw=1)
 ax.set(xlabel="recall", ylabel="precision", title="B. All labels (5-fold CV for fused models)")
 ax.legend(frameon=False, fontsize=7.5); ax.grid(alpha=.18)
