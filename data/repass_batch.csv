@@ -1,0 +1,208 @@
+rank,city,pdok_vbo,address,imagery,sign_level,sign_views,keywords,zeroshot
+1,Amsterdam,0363010000690008,"Jekerstraat 66-1, 1078ME Amsterdam",4 official / 0 user,0,0,,1.0
+2,Amsterdam,0363010000690009,"Jekerstraat 66-2, 1078ME Amsterdam",3 official / 0 user,0,0,,1.0
+3,Amsterdam,0363010000690010,"Jekerstraat 66-3, 1078ME Amsterdam",4 official / 0 user,0,0,,1.0
+4,Amsterdam,0363010000690007,"Jekerstraat 66-H, 1078ME Amsterdam",4 official / 0 user,0,0,,1.0
+5,Amsterdam,0363010012110115,"Jekerstraat 68, 1078ME Amsterdam",4 official / 0 user,0,0,,1.0
+6,Amsterdam,0363010000690021,"Jekerstraat 70-2, 1078ME Amsterdam",4 official / 0 user,0,0,,1.0
+7,Amsterdam,0363010000690022,"Jekerstraat 70-3, 1078ME Amsterdam",4 official / 0 user,0,0,,1.0
+8,Amsterdam,0363010000690027,"Jekerstraat 72-1, 1078ME Amsterdam",4 official / 0 user,0,0,,1.0
+9,Amsterdam,0363010000690028,"Jekerstraat 72-2, 1078ME Amsterdam",4 official / 0 user,0,0,,1.0
+10,Amsterdam,0363010000690029,"Jekerstraat 72-3, 1078ME Amsterdam",4 official / 0 user,0,0,,1.0
+11,Utrecht,0344010000054328,"Domplein 22, 3512JE Utrecht",1 official / 3 user,0,0,,1.0
+12,Utrecht,0344010000156821,"Domplein 23-BS, 3512JE Utrecht",1 official / 3 user,0,0,,1.0
+13,Utrecht,0344010000146739,"Domplein 23, 3512JE Utrecht",1 official / 3 user,0,0,,1.0
+14,Rotterdam,0599010000293138,"Baden Powelllaan 9, 3016GJ Rotterdam",4 official / 0 user,0,0,,0.9993
+15,Utrecht,0344010000054327,"Domplein 21A, 3512JE Utrecht",2 official / 2 user,0,0,,0.903
+16,Utrecht,0344010000054326,"Domplein 21, 3512JE Utrecht",3 official / 1 user,0,0,,0.8823
+17,Utrecht,0344010000156357,"Domplein 21B, Utrecht",3 official / 1 user,0,0,,0.8823
+18,Utrecht,0344010000177438,"Uppsalalaan 1001T, Utrecht",4 official / 0 user,0,0,,0.88
+19,Utrecht,0344010000205297,"Leidseweg 90C, 3531BG Utrecht",4 official / 0 user,0,0,,0.8617
+20,Utrecht,0344010000205298,"Leidseweg 90D, 3531BG Utrecht",4 official / 0 user,0,0,,0.8617
+21,Utrecht,0344010000205299,"Leidseweg 90E, 3531BG Utrecht",4 official / 0 user,0,0,,0.8617
+22,Utrecht,0344010000205300,"Leidseweg 90F, 3531BG Utrecht",4 official / 0 user,0,0,,0.8617
+23,Amsterdam,0363010000776484,"Sint Agnietenstraat 14, 1012EG Amsterdam",0 official / 4 user,0,0,,0.7963
+24,Utrecht,0344010000177437,"Uppsalalaan 1001N, Utrecht",4 official / 0 user,0,0,,0.7928
+25,Amsterdam,0363010000804723,"Sarphatistraat 500, 1018AV Amsterdam",4 official / 0 user,0,0,,0.7756
+26,Rotterdam,0599010000064844,"Lambertweg 40, 3062RA Rotterdam",4 official / 0 user,0,0,,0.7745
+27,Utrecht,0344010000155656,"Hof ter Weydeweg 16, 3451ST Vleuten",3 official / 0 user,0,0,,0.7687
+28,Rotterdam,0599010000227373,"'s-Gravenweg 89, 3062ZC Rotterdam",4 official / 0 user,0,0,,0.7492
+29,Rotterdam,0599010000022527,"'s-Gravenweg 91, 3062ZC Rotterdam",4 official / 0 user,0,0,,0.7492
+30,Rotterdam,0599010000232477,"'s-Gravenweg 93, 3062ZC Rotterdam",4 official / 0 user,0,0,,0.7492
+31,Rotterdam,0599010000137111,"'s-Gravenweg 95, 3062ZC Rotterdam",4 official / 0 user,0,0,,0.7492
+32,Rotterdam,0599010000088915,"Groene Wetering 37, 3062PB Rotterdam",4 official / 0 user,0,0,,0.6884
+33,Utrecht,0344010000168807,"Sorbonnelaan 15T, Utrecht",4 official / 0 user,0,0,,0.6712
+34,Utrecht,0344010000170190,"Biltsestraatweg 225D-H, 3584BE Utrecht",4 official / 0 user,0,0,,0.646
+35,Rotterdam,0599010000356347,"Prinsenlaan 910, 3062CT Rotterdam",4 official / 0 user,0,0,,0.6448
+36,Rotterdam,0599010000270594,"Coolsingel 2, 3011AD Rotterdam",4 official / 0 user,0,0,,0.6207
+37,Rotterdam,0599010000015079,"Hofplein 33, 3011AJ Rotterdam",3 official / 0 user,0,0,,0.6207
+38,Utrecht,0344010000188841,"Archimedeslaan 1, 3584BA Utrecht",4 official / 0 user,0,0,,0.6207
+39,Rotterdam,0599010000165687,"Parkhaven 20, 3016GM Rotterdam",0 official / 4 user,0,0,,0.6184
+40,Utrecht,0344010000192958,"Hondiuslaan 114, 3528AC Utrecht",4 official / 0 user,0,0,,0.6184
+41,Amsterdam,0363010012098940,"Valentijnkade 131E, 1095KH Amsterdam",0 official / 4 user,0,0,,0.6104
+42,Amsterdam,0363010000784316,"Quellijnstraat 89, 1072ZA Amsterdam",4 official / 0 user,0,0,,0.6069
+43,Utrecht,0344010000074938,"Weg naar Rhijnauwen 25, 3584AD Utrecht",4 official / 0 user,0,0,,0.6024
+44,Utrecht,0344010000112307,"Biltsestraatweg 225D-G, 3584BE Utrecht",4 official / 0 user,0,0,,0.5897
+45,Amsterdam,0363010000960323,"Valentijnkade 132, 1095KH Amsterdam",4 official / 0 user,0,0,,0.5851
+46,Amsterdam,0363010000768208,"Overijsselweg 1, 1081HT Amsterdam",4 official / 0 user,0,0,,0.584
+47,Utrecht,0344010000112109,"Uppsalalaan 5, 3584CT Utrecht",2 official / 2 user,0,0,,0.5828
+48,Utrecht,0344010000112110,"Uppsalalaan 9, 3584CT Utrecht",2 official / 2 user,0,0,,0.5828
+49,Rotterdam,0599010000246858,"Kolibristraat 13B, 3077CS Rotterdam",4 official / 0 user,0,0,,0.5794
+50,Amsterdam,0363010000605045,"Chrysantenstraat 16, 1031HT Amsterdam",4 official / 0 user,0,0,,0.5714
+51,Amsterdam,0363010000641666,"Science Park 140, 1098XG Amsterdam",4 official / 0 user,0,0,,0.5553
+52,Utrecht,0344010000077739,"Enghlaan 4, 3543BD Utrecht",4 official / 0 user,0,0,,0.5484
+53,Amsterdam,0363010000772764,"Pekkendam 2, 1081HR Amsterdam",3 official / 0 user,0,0,,0.5347
+54,Utrecht,0344010000077738,"Enghlaan 1A, 3543BD Utrecht",4 official / 0 user,0,0,,0.5175
+55,Utrecht,0344010000153423,"Enghlaan 3, 3543BD Utrecht",4 official / 0 user,0,0,,0.5175
+56,Utrecht,0344010000147742,"Biltsestraatweg 108, 3573PS Utrecht",4 official / 0 user,0,0,,0.5117
+57,Amsterdam,0363010000787112,"Quellijnstraat 106-1A, 1072XZ Amsterdam",4 official / 0 user,0,0,,0.506
+58,Amsterdam,0363010000787114,"Quellijnstraat 106-2A, 1072XZ Amsterdam",4 official / 0 user,0,0,,0.506
+59,Amsterdam,0363010000787116,"Quellijnstraat 106-3A, 1072XZ Amsterdam",4 official / 0 user,0,0,,0.506
+60,Amsterdam,0363010000787111,"Quellijnstraat 106-H, 1072XZ Amsterdam",4 official / 0 user,0,0,,0.506
+61,Amsterdam,0363010000784312,"Quellijnstraat 81, 1072ZA Amsterdam",4 official / 0 user,0,0,,0.506
+62,Amsterdam,0363010012092072,"Valentijnkade 131D, 1095KH Amsterdam",4 official / 0 user,0,0,,0.506
+63,Rotterdam,0599010000243205,"Essenburgsingel 36A, 3021AP Rotterdam",4 official / 0 user,0,0,,0.5048
+64,Rotterdam,0599010000219810,"Coolsingel 5, 3012AA Rotterdam",3 official / 0 user,0,0,,0.4991
+65,Rotterdam,0599010000460630,"Prinsenlaan 900, 3062CT Rotterdam",4 official / 0 user,0,0,,0.4979
+66,Utrecht,0344010000125866,"Merkesstraat 1, 3584BG Utrecht",4 official / 0 user,0,0,,0.4968
+67,Utrecht,0344010000065326,"Merkesstraat 2, 3584BG Utrecht",4 official / 0 user,0,0,,0.4968
+68,Rotterdam,0599010000094124,"Hofplein 32, 3011AJ Rotterdam",2 official / 0 user,0,0,,0.483
+69,Utrecht,0356010000061558,"Sportpark Galecop 2, 3438HX Nieuwegein",4 official / 0 user,0,0,,0.4739
+70,Utrecht,0344010000135990,"Harvardlaan 10, 3584CV Utrecht",2 official / 0 user,0,0,,0.4727
+71,Rotterdam,0599010000351012,"Pannerdenstraat 21, 3087CH Rotterdam",4 official / 0 user,0,0,,0.4693
+72,Rotterdam,0599010000030015,"G.W. Burgerplein 2B, 3021AV Rotterdam",4 official / 0 user,0,0,,0.4658
+73,Rotterdam,0599010000148088,"Prinsenlaan 912, 3062CT Rotterdam",4 official / 0 user,0,0,,0.4647
+74,Utrecht,0356010000065879,"Galecopperdijk 20, 3438PG Nieuwegein",4 official / 0 user,0,0,,0.4612
+75,Utrecht,0344010000099017,"Weg naar Rhijnauwen 12, 3584AD Utrecht",4 official / 0 user,0,0,,0.4612
+76,Utrecht,0344010000077157,"Biltsestraatweg 150, 3573PS Utrecht",4 official / 0 user,0,0,,0.4601
+77,Rotterdam,0599010000225559,"Brielselaan 169A, 3081AC Rotterdam",4 official / 0 user,0,0,,0.4475
+78,Rotterdam,0599010400036243,"Brielselaan 171, 3081AC Rotterdam",4 official / 0 user,0,0,,0.4475
+79,Rotterdam,0599010000255161,"Puntegaalstraat 10, 3024EB Rotterdam",4 official / 0 user,0,0,,0.4475
+80,Utrecht,0344010000155998,"Sorbonnelaan 15A, Utrecht",4 official / 0 user,0,0,,0.436
+81,Rotterdam,0599010000124416,"Essenburgsingel 31B, 3021AP Rotterdam",4 official / 0 user,0,0,,0.4234
+82,Rotterdam,0599010000097416,"Essenburgsingel 32B-02, 3021AP Rotterdam",3 official / 0 user,0,0,,0.4234
+83,Rotterdam,0599010000279137,"Essenburgsingel 31A-02, 3021AP Rotterdam",4 official / 0 user,0,0,,0.4222
+84,Utrecht,0356010000061559,"Sportpark Galecop 4, 3438HX Nieuwegein",4 official / 0 user,0,0,,0.4188
+85,Utrecht,0344010000205294,"Leidseweg 90, 3531BG Utrecht",4 official / 0 user,0,0,,0.4165
+86,Utrecht,0344010000107169,"Blaeulaan 60A, 3528AD Utrecht",4 official / 0 user,0,0,,0.4142
+87,Amsterdam,0363010000784310,"Quellijnstraat 77, 1072ZA Amsterdam",4 official / 0 user,0,0,,0.4039
+88,Amsterdam,0363010012157006,"Science Park 305, Amsterdam",4 official / 0 user,0,0,,0.4039
+89,Utrecht,0344010000065327,"Merkesstraat 3, 3584BG Utrecht",4 official / 0 user,0,0,,0.3912
+90,Rotterdam,0599010000489434,"Essenburgsingel 30B-03, 3021AP Rotterdam",4 official / 0 user,0,0,,0.3855
+91,Rotterdam,0599010000225555,"Brielselaan 161A, 3081AC Rotterdam",4 official / 0 user,0,0,,0.374
+92,Rotterdam,0599010000225557,"Brielselaan 161C, 3081AC Rotterdam",4 official / 0 user,0,0,,0.374
+93,Rotterdam,0599010000225550,"Brielselaan 163B, 3081AC Rotterdam",4 official / 0 user,0,0,,0.374
+94,Rotterdam,0599010000225556,"Brielselaan 165A, 3081AC Rotterdam",3 official / 0 user,0,0,,0.374
+95,Rotterdam,0599010000225560,"Brielselaan 165C, 3081AC Rotterdam",4 official / 0 user,0,0,,0.374
+96,Amsterdam,0363010000777895,"Plantage Muidergracht 163-2, 1018TT Amsterdam",3 official / 0 user,0,0,,0.3671
+97,Utrecht,0344010000048496,"Abraham Bloemaertstraat 13, 3514VN Utrecht",4 official / 0 user,0,0,,0.3545
+98,Rotterdam,0599010000179537,"Sint-Jobsweg 2A, 3024EJ Rotterdam",2 official / 2 user,0,0,,0.3522
+99,Utrecht,0344010000122043,"Princetonlaan 10, 3584CB Utrecht",4 official / 0 user,0,0,,0.3442
+100,Amsterdam,0363010012078308,"Amstelveenseweg 595, Amsterdam",4 official / 0 user,0,0,,0.3362
+101,Rotterdam,0599010000485325,"Müllerkade 189, Rotterdam",4 official / 0 user,0,0,,0.3316
+102,Utrecht,0344010000132352,"Uppsalalaan 3, 3584CT Utrecht",4 official / 0 user,0,0,,0.3224
+103,Rotterdam,0599010000207183,"Maaskade 177A, 3071NT Rotterdam",3 official / 0 user,0,0,,0.3121
+104,Rotterdam,0599010000225548,"Brielselaan 167B, 3081AC Rotterdam",3 official / 0 user,0,0,,0.3109
+105,Rotterdam,0599010000039646,"Maaskade 177C, 3071NT Rotterdam",4 official / 0 user,0,0,,0.3109
+106,Rotterdam,0599010000204139,"Essenburgsingel 34A, 3021AP Rotterdam",4 official / 0 user,0,0,,0.3086
+107,Rotterdam,0599010000054183,"Essenburgsingel 34B-03, 3021AP Rotterdam",4 official / 0 user,0,0,,0.3086
+108,Rotterdam,0599010400005267,"Essenburgsingel 33A, 3021AP Rotterdam",4 official / 0 user,0,0,,0.2949
+109,Rotterdam,0599010000294208,"Dordtsestraatweg 651A-02, 3075BD Rotterdam",3 official / 0 user,0,0,,0.2834
+110,Rotterdam,0599010000162857,"Maaskade 176A, 3071NT Rotterdam",4 official / 0 user,0,0,,0.2788
+111,Rotterdam,0599010000139313,"Maaskade 176C, 3071NT Rotterdam",4 official / 0 user,0,0,,0.2788
+112,Rotterdam,0599010000347921,"Beurstraverse 136, 3011AM Rotterdam",3 official / 0 user,0,0,,0.2662
+113,Utrecht,0344010000145875,"Abraham Bloemaertstraat 17, 3514VN Utrecht",4 official / 0 user,0,0,,0.265
+114,Rotterdam,0599010000437289,"Müllerkade 187, 3024EP Rotterdam",4 official / 0 user,0,0,,0.2582
+115,Amsterdam,0363010000837261,"Van der Boechorststraat 26, 1081BT Amsterdam",4 official / 0 user,0,0,,0.2513
+116,Rotterdam,0599020000002053,"Woudrichemstraat 20, 3087BR Rotterdam",4 official / 0 user,0,0,,0.249
+117,Rotterdam,0599010000294217,"Dordtsestraatweg 649A, 3075BD Rotterdam",4 official / 0 user,0,0,,0.2432
+118,Rotterdam,0599010000323935,"Dordtsestraatweg 649B-02, 3075BD Rotterdam",3 official / 0 user,0,0,,0.2432
+119,Rotterdam,0599010000347928,"Beurstraverse 158, 3012AT Rotterdam",3 official / 0 user,0,0,,0.2421
+120,Amsterdam,0363010012575058,"Arent Janszoon Ernststraat 1200, Amsterdam",4 official / 0 user,0,0,,0.195
+121,Rotterdam,0599010000347924,"Beurstraverse 144, 3012AT Rotterdam",4 official / 0 user,0,0,,0.195
+122,Amsterdam,0363020001033158,"Plantage Muidergracht 206, 1018TW Amsterdam",3 official / 0 user,0,0,,0.1916
+123,Utrecht,0344010000132403,"Kasaidreef 125, 3564AV Utrecht",4 official / 0 user,0,0,,0.1687
+124,Rotterdam,0599010000294220,"Dordtsestraatweg 647A-02, 3075BD Rotterdam",4 official / 0 user,0,0,,0.1675
+125,Rotterdam,0599010000196964,"Weena 95, 3013CH Rotterdam",4 official / 0 user,0,0,,0.1606
+126,Rotterdam,0599010000437287,"Müllerkade 183, 3024EP Rotterdam",4 official / 0 user,0,0,,0.1572
+127,Utrecht,0344010000060947,"Leidseweg 90A, 3531BG Utrecht",4 official / 0 user,0,0,,0.1262
+128,Utrecht,0344010000060948,"Leidseweg 90B, 3531BG Utrecht",4 official / 0 user,0,0,,0.1262
+129,Utrecht,0344010000060949,"Leidseweg 90C, 3531BG Utrecht",4 official / 0 user,0,0,,0.1262
+130,Rotterdam,0599010000437294,"Müllerkade 197, 3024EP Rotterdam",4 official / 0 user,0,0,,0.0849
+131,Rotterdam,0599010000437298,"Müllerkade 205, 3024EP Rotterdam",4 official / 0 user,0,0,,0.0849
+132,Rotterdam,0599010000437304,"Müllerkade 217, 3024EP Rotterdam",4 official / 0 user,0,0,,0.0849
+133,Rotterdam,0599010000437318,"Müllerkade 245, 3024EP Rotterdam",4 official / 0 user,0,0,,0.0849
+134,Rotterdam,0599010000437291,"Müllerkade 191, 3024EP Rotterdam",3 official / 0 user,0,0,,0.0711
+135,Rotterdam,0599010000076681,"Weena 6, 3012CM Rotterdam",4 official / 0 user,0,0,,0.0711
+136,Rotterdam,0599020110000542,"Parkhaven 15, 3016GM Rotterdam",4 official / 0 user,0,0,,0.0677
+137,Amsterdam,0363010000804705,"Sarphatistraat 482, 1018GW Amsterdam",4 official / 0 user,0,0,,0.0356
+138,Amsterdam,0363010000804709,"Sarphatistraat 486, 1018GW Amsterdam",4 official / 0 user,0,0,,0.0356
+139,Amsterdam,0363010011290834,"Sarphatistraat 478A, 1018GW Amsterdam",2 official / 0 user,0,0,,0.0
+140,Rotterdam,0599020000436148,"Parkhaven 11, 3016GM Rotterdam",3 official / 0 user,0,0,,0.0
+141,Amsterdam,0363010000952889,"Scharenburg 3, 1046BA Amsterdam",none,0,0,,0.5117
+142,Amsterdam,0363010012158167,"Science Park 309, 1098XH Amsterdam",none,0,0,,0.5117
+143,Amsterdam,0363010012108842,"Slego 1, 1046BM Amsterdam",none,0,0,,0.5117
+144,Amsterdam,0363010012116313,"Slego 1B, 1046BM Amsterdam",none,0,0,,0.5117
+145,Amsterdam,0363010001003396,"Van der Boechorststraat 6, 1081BT Amsterdam",none,0,0,,0.5117
+146,Rotterdam,0599010000212093,"'s-Gravenweg 81, 3062ZC Rotterdam",none,0,0,,0.5117
+147,Rotterdam,0599010000159557,"'s-Gravenweg 83, 3062ZC Rotterdam",none,0,0,,0.5117
+148,Rotterdam,0599010000227376,"'s-Gravenweg 85, 3062ZC Rotterdam",none,0,0,,0.5117
+149,Rotterdam,0599010000081319,"'s-Gravenweg 87, 3062ZC Rotterdam",none,0,0,,0.5117
+150,Rotterdam,0599010000461085,"Bentincklaan 40, 3039KK Rotterdam",none,0,0,,0.5117
+151,Rotterdam,0599010400015254,"Brielselaan 175, 3081AC Rotterdam",none,0,0,,0.5117
+152,Rotterdam,0599010000040930,"Prinsenlaan 902, 3062CT Rotterdam",none,0,0,,0.5117
+153,Rotterdam,0599010000434583,"Waalhaven O.z. 81, 3087BM Rotterdam",none,0,0,,0.5117
+154,Utrecht,0344010000203671,"Archimedeslaan 6A, 3584BA Utrecht",none,0,0,,0.5117
+155,Utrecht,0344010000112305,"Biltsestraatweg 225D-B, 3584BE Utrecht",none,0,0,,0.5117
+156,Utrecht,0344010000156098,"Biltsestraatweg 225D-C, 3584BE Utrecht",none,0,0,,0.5117
+157,Utrecht,0344010000112306,"Biltsestraatweg 225D-E, 3584BE Utrecht",none,0,0,,0.5117
+158,Utrecht,0344010000156099,"Biltsestraatweg 225D-M, 3584BE Utrecht",none,0,0,,0.5117
+159,Utrecht,0344010000112873,"Biltsestraatweg 225D-O, 3584BE Utrecht",none,0,0,,0.5117
+160,Utrecht,0344010000112309,"Biltsestraatweg 225D-T, 3584BE Utrecht",none,0,0,,0.5117
+161,Utrecht,0344010000112872,"Biltsestraatweg 225D-TR, 3584BE Utrecht",none,0,0,,0.5117
+162,Utrecht,0344010000200403,"Hebe Kohlbruggeweg 28, 3527MD Utrecht",none,0,0,,0.5117
+163,Utrecht,0344010000200404,"Hebe Kohlbruggeweg 30, 3527MD Utrecht",none,0,0,,0.5117
+164,Utrecht,0344010000200405,"Hebe Kohlbruggeweg 32, 3527MD Utrecht",none,0,0,,0.5117
+165,Utrecht,0344010000200406,"Hebe Kohlbruggeweg 34, 3527MD Utrecht",none,0,0,,0.5117
+166,Utrecht,0344010000200408,"Hebe Kohlbruggeweg 38, 3527MD Utrecht",none,0,0,,0.5117
+167,Utrecht,0344010000200409,"Hebe Kohlbruggeweg 40, 3527MD Utrecht",none,0,0,,0.5117
+168,Utrecht,0344010000200410,"Hebe Kohlbruggeweg 42, 3527MD Utrecht",none,0,0,,0.5117
+169,Utrecht,0344010000200411,"Hebe Kohlbruggeweg 44, 3527MD Utrecht",none,0,0,,0.5117
+170,Utrecht,0344010000200412,"Hebe Kohlbruggeweg 46, 3527MD Utrecht",none,0,0,,0.5117
+171,Utrecht,0344010000200413,"Hebe Kohlbruggeweg 48, 3527MD Utrecht",none,0,0,,0.5117
+172,Utrecht,0344010000200414,"Hebe Kohlbruggeweg 50, 3527MD Utrecht",none,0,0,,0.5117
+173,Utrecht,0344010000200415,"Hebe Kohlbruggeweg 52, 3527MD Utrecht",none,0,0,,0.5117
+174,Utrecht,0344010000200416,"Hebe Kohlbruggeweg 54, 3527MD Utrecht",none,0,0,,0.5117
+175,Utrecht,0344010000200418,"Hebe Kohlbruggeweg 58, 3527MD Utrecht",none,0,0,,0.5117
+176,Utrecht,0344010000200421,"Hebe Kohlbruggeweg 64, 3527MD Utrecht",none,0,0,,0.5117
+177,Utrecht,0344010000200423,"Hebe Kohlbruggeweg 68, 3527MD Utrecht",none,0,0,,0.5117
+178,Utrecht,0344010000200428,"Hebe Kohlbruggeweg 78, 3527MD Utrecht",none,0,0,,0.5117
+179,Utrecht,0344010000200430,"Hebe Kohlbruggeweg 82, 3527MD Utrecht",none,0,0,,0.5117
+180,Utrecht,0344010000200432,"Hebe Kohlbruggeweg 86, 3527MD Utrecht",none,0,0,,0.5117
+181,Utrecht,0344010000200433,"Hebe Kohlbruggeweg 88, 3527MD Utrecht",none,0,0,,0.5117
+182,Utrecht,0344010000173217,"Princetonlaan 1000N, Utrecht",none,0,0,,0.5117
+183,Utrecht,0344010000173218,"Princetonlaan 1000T, Utrecht",none,0,0,,0.5117
+184,Utrecht,0310010000696121,"Universiteitsweg 12, 3732HX De Bilt",none,0,0,,0.5117
+185,Utrecht,0344010000127883,"Van Deventerlaan 101, 3528AG Utrecht",none,0,0,,0.5117
+186,Utrecht,0312010000005798,"Vossegatsedijk 2, 3981HS Bunnik",none,0,0,,0.5117
+187,Utrecht,0312010000005799,"Vossegatsedijk 2a, 3981HS Bunnik",none,0,0,,0.5117
+188,Utrecht,0312010000005800,"Vossegatsedijk 2b, 3981HS Bunnik",none,0,0,,0.5117
+189,Utrecht,0344010000190003,"Winklerlaan 1007T, Utrecht",none,0,0,,0.5117
+190,Utrecht,0344010000189956,"Winklerlaan 367-16, 3571KE Utrecht",none,0,0,,0.5117
+191,Utrecht,0344010000189957,"Winklerlaan 367-17, 3571KE Utrecht",none,0,0,,0.5117
+192,Utrecht,0344010000189960,"Winklerlaan 367-20, 3571KE Utrecht",none,0,0,,0.5117
+193,Utrecht,0344010000189962,"Winklerlaan 367-22, 3571KE Utrecht",none,0,0,,0.5117
+194,Utrecht,0344010000189963,"Winklerlaan 367-23, 3571KE Utrecht",none,0,0,,0.5117
+195,Utrecht,0344010000189967,"Winklerlaan 367-27, 3571KE Utrecht",none,0,0,,0.5117
+196,Utrecht,0344010000189974,"Winklerlaan 367-34, 3571KE Utrecht",none,0,0,,0.5117
+197,Utrecht,0344010000189977,"Winklerlaan 367-37, 3571KE Utrecht",none,0,0,,0.5117
+198,Utrecht,0344010000189988,"Winklerlaan 367-48, 3571KE Utrecht",none,0,0,,0.5117
+199,Utrecht,0344010000189989,"Winklerlaan 367-49, 3571KE Utrecht",none,0,0,,0.5117
+200,Utrecht,0344010000189990,"Winklerlaan 367-50, 3571KE Utrecht",none,0,0,,0.5117
+201,Utrecht,0344010000189991,"Winklerlaan 367-51, 3571KE Utrecht",none,0,0,,0.5117
+202,Utrecht,0344010000189992,"Winklerlaan 367-52, 3571KE Utrecht",none,0,0,,0.5117
+203,Utrecht,0344010000189993,"Winklerlaan 367-53, 3571KE Utrecht",none,0,0,,0.5117
+204,Utrecht,0344010000189994,"Winklerlaan 367-54, 3571KE Utrecht",none,0,0,,0.5117
+205,Utrecht,0344010000189995,"Winklerlaan 367-55, 3571KE Utrecht",none,0,0,,0.5117
+206,Utrecht,0344010000190000,"Winklerlaan 367-60, 3571KE Utrecht",none,0,0,,0.5117
+207,Utrecht,0344010000190002,"Winklerlaan 367-62, 3571KE Utrecht",none,0,0,,0.5117

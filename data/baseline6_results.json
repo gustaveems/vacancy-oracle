@@ -1,0 +1,273 @@
+{
+  "n": 843,
+  "pos": 26,
+  "training_free": {
+    "sign_only": {
+      "geo_test_RU": {
+        "pr_auc": 0.056,
+        "ci95": [
+          0.037,
+          0.076
+        ],
+        "n": 523,
+        "pos": 21
+      },
+      "rotated_test_Adam": {
+        "pr_auc": 0.023,
+        "ci95": [
+          0.015,
+          0.093
+        ],
+        "n": 320,
+        "pos": 5
+      },
+      "all_labels": {
+        "pr_auc": 0.043,
+        "ci95": [
+          0.029,
+          0.056
+        ],
+        "n": 843,
+        "pos": 26
+      }
+    },
+    "sign_then_zeroshot": {
+      "geo_test_RU": {
+        "pr_auc": 0.127,
+        "ci95": [
+          0.084,
+          0.201
+        ],
+        "n": 523,
+        "pos": 21
+      },
+      "rotated_test_Adam": {
+        "pr_auc": 0.032,
+        "ci95": [
+          0.017,
+          0.05
+        ],
+        "n": 320,
+        "pos": 5
+      },
+      "all_labels": {
+        "pr_auc": 0.082,
+        "ci95": [
+          0.055,
+          0.123
+        ],
+        "n": 843,
+        "pos": 26
+      }
+    },
+    "zeroshot": {
+      "geo_test_RU": {
+        "pr_auc": 0.126,
+        "ci95": [
+          0.084,
+          0.204
+        ],
+        "n": 523,
+        "pos": 21
+      },
+      "rotated_test_Adam": {
+        "pr_auc": 0.033,
+        "ci95": [
+          0.017,
+          0.051
+        ],
+        "n": 320,
+        "pos": 5
+      },
+      "all_labels": {
+        "pr_auc": 0.082,
+        "ci95": [
+          0.055,
+          0.126
+        ],
+        "n": 843,
+        "pos": 26
+      }
+    }
+  },
+  "labeling_function": {
+    "Amsterdam": {
+      "level>=2": {
+        "fires": 0,
+        "coverage": 0.0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "level>=1": {
+        "fires": 0,
+        "coverage": 0.0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "base_rate": 0.016
+    },
+    "Rotterdam": {
+      "level>=2": {
+        "fires": 0,
+        "coverage": 0.0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "level>=1": {
+        "fires": 0,
+        "coverage": 0.0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "base_rate": 0.018
+    },
+    "Utrecht": {
+      "level>=2": {
+        "fires": 0,
+        "coverage": 0.0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "level>=1": {
+        "fires": 0,
+        "coverage": 0.0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "base_rate": 0.064
+    },
+    "all": {
+      "level>=2": {
+        "fires": 0,
+        "coverage": 0.0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "level>=1": {
+        "fires": 0,
+        "coverage": 0.0,
+        "precision": null,
+        "recall": 0.0,
+        "tp": 0
+      },
+      "base_rate": 0.031
+    }
+  },
+  "baseline5": {
+    "cv": {
+      "pr_auc": 0.469,
+      "ci95": [
+        0.304,
+        0.662
+      ],
+      "n": 843,
+      "pos": 26
+    },
+    "geo": {
+      "pr_auc": 0.062,
+      "ci95": [
+        0.046,
+        0.092
+      ],
+      "n": 523,
+      "pos": 21
+    },
+    "rotated": {
+      "pr_auc": 0.023,
+      "ci95": [
+        0.019,
+        0.031
+      ],
+      "n": 320,
+      "pos": 5
+    }
+  },
+  "baseline6": {
+    "cv": {
+      "pr_auc": 0.469,
+      "ci95": [
+        0.312,
+        0.656
+      ],
+      "n": 843,
+      "pos": 26
+    },
+    "geo": {
+      "pr_auc": 0.062,
+      "ci95": [
+        0.046,
+        0.093
+      ],
+      "n": 523,
+      "pos": 21
+    },
+    "rotated": {
+      "pr_auc": 0.023,
+      "ci95": [
+        0.019,
+        0.032
+      ],
+      "n": 320,
+      "pos": 5
+    }
+  },
+  "buildings_with_ocr": 1050,
+  "keyword_counts": {
+    "TE HUUR": 0,
+    "TE KOOP": 0,
+    "VERHUURD": 0,
+    "VERKOCHT": 0,
+    "BESCHIKBAAR": 0,
+    "TO LET": 0,
+    "FOR RENT": 0,
+    "FOR SALE": 0,
+    "LEEGSTAND": 0,
+    "HUUR": 0,
+    "KOOP": 0,
+    "BEDRIJFSRUIMTE": 0,
+    "KANTOORRUIMTE": 0,
+    "WINKELRUIMTE": 0,
+    "BEDRIJFSPAND": 0,
+    "KANTOORPAND": 0,
+    "WINKELPAND": 0,
+    "MAKELAAR": 0,
+    "MAKELAARS": 0,
+    "MAKELAARDIJ": 0,
+    "GESLOTEN": 0,
+    "OPHEFFINGSUITVERKOOP": 0
+  },
+  "repass": {
+    "unclear": 207,
+    "no_imagery": 67,
+    "with_strong_sign": 0,
+    "with_any_sign": 0
+  },
+  "imagery_audit": {
+    "buildings": {
+      "no_imagery": {
+        "unclear": 67
+      },
+      "clean": {
+        "occupied": 757,
+        "vacant": 26,
+        "unclear": 128
+      },
+      "has_user_photo": {
+        "occupied": 60,
+        "unclear": 12
+      }
+    },
+    "images": {
+      "official": 3653,
+      "placeholder": 268,
+      "user_photo": 150
+    }
+  }
+}

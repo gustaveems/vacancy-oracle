@@ -4,3 +4,4 @@ data/config.json
 data/imagery/
 data/embeddings.npz
 data/ocr_text.jsonl
+data/imagery_facade/
