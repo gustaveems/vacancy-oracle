@@ -28,7 +28,7 @@ for name, f in zip(d["ids"], d["feats"].astype(np.float32)):
 X_map = {k: np.mean(v, axis=0) for k, v in by_id.items()}
 zs = json.load(open(ROOT / "data/vision_zeroshot_scores.json"))
 reg = {r["pdok_vbo"]: r for r in csv.DictReader(open(ROOT / "data/registry_features.csv"))}
-meta = {r["pdok_vbo"]: r for r in csv.DictReader(open(ROOT / "data/imagery_facade/manifest.csv"))}
+meta = {r["pdok_vbo"]: r for r in csv.DictReader(open(ROOT / "data/facade_metadata.csv"))}
 USES = ["woonfunctie", "kantoorfunctie", "industriefunctie", "winkelfunctie", "bijeenkomstfunctie",
         "overige gebruiksfunctie", "onderwijsfunctie", "sportfunctie", "logiesfunctie", "gezondheidszorgfunctie"]
 FLAGS = USES + ["ligplaats", "standplaats"]
