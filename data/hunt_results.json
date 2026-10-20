@@ -16,9 +16,9 @@
   },
   "probe_4heading": {
     "grouped_cv": {
-      "mean": 0.466,
-      "min": 0.398,
-      "max": 0.547
+      "mean": 0.465,
+      "min": 0.397,
+      "max": 0.548
     },
     "geo_test_RU": 0.026,
     "rotated_test_Adam": 0.013
