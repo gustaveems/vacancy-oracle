@@ -1,0 +1,33 @@
+{
+  "labeled_with_both_views": {
+    "units": 726,
+    "pos": 25,
+    "buildings": 418,
+    "pos_buildings": 16
+  },
+  "probe_facade": {
+    "grouped_cv": {
+      "mean": 0.331,
+      "min": 0.314,
+      "max": 0.357
+    },
+    "geo_test_RU": 0.031,
+    "rotated_test_Adam": 0.017
+  },
+  "probe_4heading": {
+    "grouped_cv": {
+      "mean": 0.466,
+      "min": 0.398,
+      "max": 0.547
+    },
+    "geo_test_RU": 0.026,
+    "rotated_test_Adam": 0.013
+  },
+  "prevalence": 0.034,
+  "hunt": {
+    "ranker": "probe_4heading",
+    "scored_unlabeled_amsterdam": 276,
+    "with_recent_photo": 203,
+    "batch": 100
+  }
+}
