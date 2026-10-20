@@ -1,0 +1,105 @@
+{
+  "n_units": 843,
+  "n_buildings": 468,
+  "pos_units": 26,
+  "pos_buildings": 17,
+  "cv": {
+    "unit": {
+      "fused": {
+        "mean": 0.554,
+        "min": 0.469,
+        "max": 0.703,
+        "ci95_seed7": [
+          0.242,
+          0.686
+        ]
+      },
+      "image_only": {
+        "mean": 0.473,
+        "min": 0.418,
+        "max": 0.524
+      },
+      "registry_only": {
+        "mean": 0.451,
+        "min": 0.389,
+        "max": 0.508
+      },
+      "probe": {
+        "mean": 0.433,
+        "min": 0.391,
+        "max": 0.481
+      }
+    },
+    "grouped": {
+      "fused": {
+        "mean": 0.374,
+        "min": 0.331,
+        "max": 0.415,
+        "ci95_seed7": [
+          0.161,
+          0.543
+        ]
+      },
+      "image_only": {
+        "mean": 0.351,
+        "min": 0.28,
+        "max": 0.422
+      },
+      "registry_only": {
+        "mean": 0.208,
+        "min": 0.168,
+        "max": 0.237
+      },
+      "probe": {
+        "mean": 0.428,
+        "min": 0.406,
+        "max": 0.449
+      }
+    }
+  },
+  "photo_age": {
+    "pr_auc_all": 0.125,
+    "pr_auc_geo_test_RU": 0.167,
+    "pr_auc_rotated_test_Adam": 0.018,
+    "ci95_all": [
+      0.02,
+      0.318
+    ],
+    "known_dates": 843,
+    "vacancy_rate_by_era": {
+      "<=2015": {
+        "n": 71,
+        "pos": 7,
+        "rate": 0.099
+      },
+      "2016-2021": {
+        "n": 207,
+        "pos": 2,
+        "rate": 0.01
+      },
+      "2022-2026": {
+        "n": 565,
+        "pos": 17,
+        "rate": 0.03
+      }
+    }
+  },
+  "grouped_fused_without_le2015_photos": {
+    "n": 772,
+    "pos": 19,
+    "mean": 0.245,
+    "min": 0.211,
+    "max": 0.338
+  },
+  "facade_sign_reader": {
+    "buildings_read": 837,
+    "images": 2511,
+    "level_counts": {
+      "0": 837,
+      "1": 0,
+      "2": 0
+    },
+    "units_with_readable_text": 324,
+    "vacant_units_with_readable_text": 10
+  }
+}

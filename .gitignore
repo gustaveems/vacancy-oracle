@@ -5,3 +5,4 @@ data/imagery/
 data/embeddings.npz
 data/ocr_text.jsonl
 data/imagery_facade/
+data/ocr_facade.jsonl
